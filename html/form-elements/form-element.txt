@@ -1,0 +1,109 @@
+What are the different types of form elements?
+ <label>
+ <input>
+ <select>
+   <option>
+<textarea>
+<button>
+
+<fieldset>
+<legend>
+<datalist>
+<output>
+<optgroup>
+=====
+
+What is the input element?
+ One of the most used form element is the <input> element.
+ The <input> element can be displayed in several ways, depending on the
+ type attrtibute.
+ Example:
+   <input type="text" id="firstname" name="firstname">
+   <input type="number" id="employeeid" name="employeeId">
+   <input type="password" id="password" name="password">
+   etc.....
+========
+What is the label element?
+The <label> element defines a label for several form elements.
+The <label> element is useful for screen-reader users, because
+the screen-reader will read out.
+loud the label when the user focus on the input element.
+The for attribute of the <label> tag should be equal to the id attribute of 
+the <input> element to bind them together.
+Example:
+ <label for="firstname">First name:</label>
+ <input type="text" id="firstname" name="firstName">
+=========
+What is the select and option?
+Select:
+The <select> tag is used to create a drop down list with multiple options.
+Example:
+<label for="departmentId">Department Name</label>
+<select id="departmentId" name="departmentIdName">
+  <option value="0"></option>
+  <option value="10">Adimistration</option>
+  <option value="20">Marketing</option>
+  <option value="30">Purchasing</option>
+</select>
+
+By default, the first item in the drop-down list is selected.
+======
+1 selected attribute:
+  To define a pre-selected option, add the selected attribute to
+  the option.
+  Example:
+     <option value="40" selected>Human Resources</option>
+ ====
+2 size attribute:
+  Use the size attribute to specify the number of visible values.
+  Example:
+     <select id="departmentId" name="departmentName" size="3">
+====
+3 multiple attribute:
+  Use the multiple attribute to allow the user to select more than one value.
+  Example:
+     <select id="departmentId" name="departmentName size=="3" multiple>
+=====
+What is the textarea element?
+The HTML <textarea> element is used to define a multi-line text input.
+It can hold unlimited number of characters.
+The size of the HTML textarea is defined by cols and rows attribute.
+The rows attribute specifies the visible number of lines in a text area.
+The cols attribute specifies the visible widdth of a text area.
+Example:
+  <textarea name="message" rows="10" cols="30">textarea</textarea>
+======
+What is button element?
+ The <button> element is used to create a clickable button within HTML form 
+ on your webpage.
+ You can put content like text or image within the button.
+ HTML Button rag can be used inside and outside the form.
+ If you use it inside the form, it works as the submit button.
+ If you use it outside the form, you can call JAvaScript function on it.
+ Example:
+ <button type="button" onclick="windows.alert()">Click Me!</button>
+====
+What is the fieldset and legend?
+fieldset:
+The <fieldset> element is used to group related data in a form.
+The use of this tag is optional while creating an HTML form, but 
+using <fieldset>, it is easy to understand the purpose of grouped 
+elements of form.
+Syntax:
+  <fieldset>Personal Information
+    <inout type="text" id="firstName" name="firstName">
+    <inout type="text" id="managerName" name=managerName">
+  </fieldset>
+  
+
+
+
+FAQ:
+
+1.What are the input types?
+2.what is the difference between <input type="submit"> and <input type="button">?
+button: call some function, not submissionof form. action is performing, just calling the java script.
+an event(actionj) is generated.
+
+submit: the awhole form will be submitted in the middleware.
+ form submission.

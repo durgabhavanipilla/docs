@@ -1,0 +1,153 @@
+
+What is HTML Form?
+ HTML <form> element is used to collect user input.
+ The user input is most oftern sent to a server for processing.
+ user/browser ----> data request ----> server
+                           data  processing
+ user/brouwser <---- data response  <--- server
+======
+How to create a form?
+ The HTML <from> element is used to create an HTML form for user input.
+ The <form> element is a container for different types of input elements.
+ Such as : 
+      text, number, date, radio, submit, and etc....
+Syntax:
+   <form>
+    form elements here.....
+    </form>
+======
+Define <input> Element?
+  The <input> element is the most used form element.
+  An <input> element can be displayed in many ways, depending on the type 
+  attribute.
+
+<input type="text">
+     It defines a single-line input field for text input.
+<input type="radio">
+     It displays radio button for selecting one of more choices.
+<input type="checkkbox">
+     It displays the checkkbox for selecting zero or more of many choices.
+<input type="submit">
+     It displays the submit button for submitting the form data to form handler.
+=====
+Define <label> Element?
+	The <label> tag defines a label for many form elements.
+	The <label> element is useful for screen-reader users.
+	The for attribute of the <label> tag should be equal to the id attribute of 
+	the <input> element.
+=====
+What is the use of name attribute in <input> Element?
+	Each input field must have a name attribute to be submitted.
+	If it is ignored, the value of input field will not to server and server can't 
+	able to read the value.
+Example:
+  <label for="fname">FirstName:</label><br>
+  <input type="text" id="fname" name="FirstName">
+=====
+Define Action attribute of form element?
+	The action attribute defines the action to be performed when the form is submitted.
+	The form data is sent to a file on the server when clicks on the submit button.
+	This file contains a server script that handles the form data.
+	
+	Note: action attribute work by using middleware.
+
+Example:
+ <form acdtion="/employee/createEmployee.jsp">
+   <label for="fname">First name </label><br>
+   <input type="text" id="fname" name="firstName"><br>
+   <input type="submit" value="Submit">
+  <form>
+====
+Define method attribute?
+	 The method attributeto be used when submitting the form data.
+	 The form-data can be sent as URL variables with mithod="get".
+	 The form-data can be sent via HTTP body with method="post".
+===
+What is GET Method?
+	Appends the form data to the URL un name and value pairs.
+	Never use GET method to send sensitive and secure data.
+	The length of a URL is limited up to 2048 characters.
+	Use GET method to get the data from the server.
+	Example:
+	<h2>Login Form</h2>
+	<form action="/action_page.jsp" target="_blank" method="get">
+	<label for="userid">UserId<label><br>
+	<input type="text" id="userid" name=:"userid"><br>
+	<label for="password">Password<label><br>
+	<input type="password" id="password" name=:"password"><br>
+	</form>
+
+get request:
+ http://www.dms.com/login.jsp?userid=bhavani&password=1234
+http://dms.com/cs/?service=document&type=pdf&no=341256&user=bhavani
+====
+What is POST Method?
+Appends the form data inside the abody of the HTTP request.
+Use POST method to send sensitive, secure and large amounts of data.
+It has no size limitations.
+It cannot be bookmarked.
+Example:
+<form action="/login.jsp" target="_blank" method="post"">
+  <label for="userid">UserId<label><br>
+  <input type="text" id="userid" name=:"userid"><br>
+  <label for="password">Password<label><br>
+  <input type="password" id="password" name=:"password"><br>
+  <input type="submit" value="submit">
+</form>
+https://www.dms.com/login.jsp
+======
+Define autocomplete attribute?
+The autocomplete attribute specifies whether a form should have autocomplete 
+on or off.
+WAhen the autocomplete is on, the browser autocompleticallly fill the values 
+based on values that the user has entered before.
+Example:
+<form action="/action_page.jsp"  autocomplete="on"
+  <label for="fname">First name:<label><br>
+  <input type="text" id="fname" name=:"fname"><br>
+  <label for="email">Email:<label><br>
+  <input type="email" id="email" name=:"email"><br>
+  <input type="submit">
+</form>
+=========
+Define novalidate attribute?
+It is an boolean attribute, and specifies the form-data should not be validated 
+when submitted.
+Example:
+ <form action="/action_page.php" novalidate>
+   <label for="email">Enter your email:</label>
+   <input type="email" id="email" name="email" requested><br><br>
+   <input type="submit">
+</form>
+====
+http://nextstep.tcs.com/campus/#/registrationPage
+http://careers.ibm.com/campaign/global-en-tf-400-general-talent-form/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+========================
+What is target attribute om form element?
+The target attribute specifies where to display the responsed 
+received after submitting the form.
+===
+What is method attribute in form element?
+The method attribute specifies  
+===============
+
+What is <textarea> Element?
+ It defines a multi-line input field.
+ The rows attribute specifies the visible number of lines in a text area.
+ The cols attribute specifies the visible width of a text area.
+ Syntax:
+   <textarea rows="5" cols="10">This is a text area</textarea>

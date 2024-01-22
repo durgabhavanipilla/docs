@@ -1,0 +1,14 @@
+Topic           Covered       Practice      Interviiew
+
+Home              yes      
+Introduction      yes
+Syntax            yes   
+Howto             yes
+Comments          yes
+Colors            yes
+float             yes
+clear             yes
+z-index           yes
+position          yes
+overflow
+display           yes

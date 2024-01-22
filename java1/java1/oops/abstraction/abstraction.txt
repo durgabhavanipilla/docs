@@ -1,0 +1,18 @@
+What is abstraction?
+    Hiding the internal implementation details and showing only its
+    specification.
+    By using abstract classes and interfaces we can implement abstraction.
+--
+The main advantange of abstraction are 
+    1. We can achieve security because we are not highlighting our internal
+        implementation.
+    2. Without affecting outside person we can able to perform any type of changes
+        in our internal system and hence enhancement will become easy.
+    3. It improves maintainability of the application.
+    4. It improves easiness to use our system.
+==
+abstract classes
+//TODO
+abstract methods
+//TODO
+no abstract properties

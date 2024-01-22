@@ -1,0 +1,78 @@
+            output.text in javascript
+			
+ What are the display possibilities in javascript?
+  JavaScript can "display" data in different ways:
+  innetHTML
+  document.write()
+  window.alert()
+  console.log()
+  window.print()
+  
+ innetHTML:
+  To access an HTML element, JavaScript can use the 
+  document.getElementById("id") method.
+  The id attribute defines the HTML element. and the content 
+  inside the HTML element.
+  The innerHTML property defines the HTML content.
+ =====
+ document.write():
+  It is used for testing purpose.  
+  Using document.write() after an HTML document is to loaded,
+  it will delete all existing elements from html element and 
+  writes the data into body element.
+  The document.write() method should only for testing
+  // it will deleter all existing content from the browser and writes new 
+  content into console.log() method.//
+ =====
+ window.alert():
+  We can use an alert box to display data.
+  //In JavaScript, the window object is the global scope object.
+  This means that variables, properties, and methods by default 
+  belong to the window object. 
+  This also means that specifying the window keyword is optional.//
+  We can skip the window keyword in window.alert() it is optional.
+ =====
+  console.log():
+  It is used For debugging purpose.
+  If we want to display data in console, then write data into console.log()
+  method.
+ //you can call the console.log() method in the browser to display data.//
+ =====
+ JavaScript Print:
+ JavaScript does not have any print object or print methods.
+ you have to call the window.print() method in the browser to print
+ the current page.
+ You cannot access output devices from JavaScript.
+ =====
+ Window.alert():
+ We can use an alert box to display data.
+ We can skip the window keyword in window.alert() method is an optional.
+
+ HTML <--- JavaScript   <---6+
+ What is the difference between window and document object?
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+The only exception is that you can call the window.print() method in the browser to print the content of the current window.

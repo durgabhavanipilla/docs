@@ -1,0 +1,67 @@
+How many ways to we can apply color to html element?
+    There are  4 ways
+      1.color-names
+	  2.HEX(0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f)
+	  3.RGB, RGBA
+	  4.HSL, HSLA
+=======
+  How to apply color name?
+    color can be specified by predifined color names.
+=======	 
+How to apply color to the text of an element?
+   Using color property.
+=======
+ How to apply border to an element?
+  We can apply the color for border by using border property.
+=======
+ How to apply background color to an element?
+   we can apply background color by using background-color property.
+======
+ How to apply color in HEX format to an element?
+   A color can be specified using a hexadecimal form like (#rrggbb),
+   which include red, green and blue.
+   The hexadecimal values are specified between 00 and ff.
+   Sometimes we can write as a three digit code in css like (#rgb).
+   It is possible when both the values are same for each components.
+  Example:
+         11ff44 = 1f4
+		 Black = #000000
+		 White = #FFFFFF
+========
+ How to apply color in RGB format to an element?
+  In CSS, a color can be specified as an RGB value represents Red,
+  Green and Blue.
+  Each parameter red, green and blue defines the intensity of the 
+  color between 0 and 255.
+=====
+ How can we get Black and White colors by using RGB values?
+  To display black, set all the parameters to 0 like rgb(0,00).
+  To display white, set all the color parameters to 255 like rgb(255,
+  255, 255).
+=====
+ How to apply color in RGBA format to an element?
+  RGBA color values are the extention of rgb color values with alpha, 
+  it specifies the opacity of the color.
+  Which it respresents rgba(red, green, blue,alpha).
+  alpha parameter is a number between 0.0(fully transparent) and 
+  1.0(not transparent at all).
+=====
+ How to apply color in HSL format to an element?
+  HSL stands for hue, saturation and lightness.
+  Hue defines the intensity of color between 0 and 360. 0 is red,
+  120 is green, and 240 is blue.
+  Saturation is a percentage value, 0% is gray and 100% is the full
+  color.
+  Lightness is also a percentage, 0% is black and 100% is white.
+=====
+ How to apply color in HSLA format to an element?
+  HSLA color values are an extention of HSL color values with an 
+  alpha channel.
+  Alpha specifies the opacity for a color.
+  alpha parameter is a number between 0.0(fully transparent) and
+  1.0 (not transparent at all).
+  Syntax:
+    hsla(hue, saturation, lightness, alpha);
+	
+  
+  

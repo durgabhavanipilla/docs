@@ -1,0 +1,39 @@
+ Objects:
+ What is an objects?
+  Object is an instance of a class. Object is a physical entity.
+  without class, we cant create an object.
+  object is an entity having state and behavior(properties and
+  methods).
+  Javascript is an object-based language.
+  Everything is an object in javascript.
+  
+  How many ways we can create object in javascript?
+   1.By using curly braces.
+   2.By using object class and new keyword.
+   3.By using an class constructor and new keyword.
+  ====
+  
+  Example:
+    var emp = new object();
+	emp.id = 101;
+	emp.name
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

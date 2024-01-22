@@ -1,0 +1,44 @@
+ 
+ Style Attributes:
+ What is Style Attribute?
+  Setting the style of an html element can be done by using 
+  Style attribute.
+  Syntax:
+  <tagname style="property:value;">
+=====
+ Background color:
+ How to apply background color to an element?
+  Background color property defines the background color for 
+  an HTML element.
+  Example:
+  <h1 style="background-color:red;">This is Heading</h1>
+=====
+  Text color:
+ How to apply text color to an element?
+  Color property defines the text color for an HTML element.
+  Example:
+   <h1 style="color:red;">This is a heading</h1>
+   <p style="color:yellow;">This is a para.</p>
+=====
+ Font family:
+ How to apply font family to an element?
+   Font family property defines font to be used for an HTML element.
+   Example:
+     <h1 style="font:family:italic;">This is a Heading</h1>
+	 <p style="font-family:algerian;">This is a para.</p>
+=====
+  Font size:
+ How to apply text size to an element?
+  Font-size property defines the text size of an HTML element.
+    Example:
+      <h1 style="font-size:40px;">This is a Heading.</h1>
+	  <p style="font-size:10px;">This is a para.</p>
+=====
+  Text Alignment:
+    The text-align property defines the horizontal alignment for an HTML element.
+    Example:
+     <h1 style="text-align:center;">Centered Heading.</h1>
+     <p style="text-align:right;">Right side paragraph.</p>
+ ====
+ 
+ 

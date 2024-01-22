@@ -1,0 +1,168 @@
+			
+	What is <DOCTYPE html>?
+	 It defines that this document is an HTML5 document.
+	 It must be written in the top of page.
+	 We are giving information to the browser that this document 
+	 it an html5 document.
+	 Browser will interpret and execute the html document by following
+	 html5 standards.
+	====
+	 What is a tag?
+	  A tag is a main building block of HTML.
+	  HTML has approx 100 tags.
+	  Syntax:
+		<start-tag-name></end-tag-name>
+	====
+	 What is <html>?
+	  This is the root tag in html page.
+	===
+	 What is <head>?
+	  It contains meta information about the page. // TO DO
+	  The content which is written in this element will not be visible in 
+	  the web page.
+	===
+	 What is <title>?
+	   It specifies a little for the HTML page.
+	   It is shown in the browser's title bar or in the page's tab.
+	====
+	 What will be the page title, if you don't provide title tag in the
+	 head tag?
+	   Your file name is Page Title.
+	 =====
+	  What is <body>?
+	   It defines the document's body.
+	   It is a container for all the visible contents.
+	   The content that is written in this element only visible in 
+	   the web page.
+	 ====
+	  What is <h1> to <h6>?
+	   It defines a large heading, here in this we are having from
+	   <h1>to<h6>.
+	=====
+	 What is <p>? 
+	  This element defines a Paragraph.
+	===
+	 What is an HTML element?
+	  An HTML element is defined by a start tag, some content, and 
+	  an end tag.
+	  Syntax:
+		 <tag-name>Content goes here...</tag-name>
+	  Example:
+		 <h1>Content here One</h1>
+		 <h6>Content here Six</h6>
+	======
+	 What are empty Elements?
+	   Some elements have no content.
+	   These elements are called as empty elements.
+	   Empty elements have no end tag.
+
+	What are the tags that doesn't have end tag?
+	  <br>, <img>, <link>, <input> etc...
+	====
+	 What are the difference between tag and element?
+	  A tag may be a start tag or end tag, it doesn't have content.
+	  Example: 
+		<h1>, <p>, </h1>, </p>, etc...
+	 An element is a combination of <start tag>, some content and </end tag>
+	 Example:
+	   <h6>Content here six</h6>
+	======   
+	What is the browser?
+	The purpose of a browser is to read HTML documents and display
+	them correctly.
+	Browser does not display the HTML tags, but uses them to determine how to
+	display the document.
+	Example:
+	 Chrome, Edge, Firefox, Safari.
+	======
+	What is the Server?
+	 Server is a machine, where we host our web application.
+	===
+	What is the difference between web browser and web server?
+	 web browser:
+		 It will be installed in client machine.
+	   Example:
+		 Chrome, Edge, Firefox, Safari.
+		 
+	 web server:
+	  It will be installed in server machine.
+	  Example:
+		 Tomcat, Jboss, weblogic
+	=====
+	 Tell me about HTML history?
+	   Since the early days of the World wide web, there have been many 
+	   versions of HTML:
+	   Year     Version
+	   1983     Tim Berners-Lee invented www
+	   1991     Tim Berners-Lee invented HTML
+	   1993     Dave Raggett drafted HTML+
+	   1995     HTML Working Group defined HTML 2.0
+	   1997     W3C Recommendation : HTML 3.0
+	   1999     W3C Recommendation : HTML 4.01
+	   2000     W3C Recommendation : XML : 1.0
+	   2008     WHATWG HTML5 First Public Draft
+	   2012     WHATWG HTML5 Living Standard
+	   2014     W3C Recommendation : HTML5
+	   2016     W3C Candidate Recommendation : HTML 5.1
+	   2017     W3C Recommendation : HTML 5.1 2nd Edition
+	   2017     W3C Recommendation : HTML 5.2
+	 ======
+	 What is the difference between html4 and html5?
+	 DOCTYPE
+	 HTML4
+	 <!DOCTYPE HTML Public "- W3C DTD HTML 4.01 EN" "http://www.w3.org/TR/html4"
+	 strict.dtd">
+	 
+	 HTML5
+	 <!DOCTYPE html>
+	 
+	 New elements
+	 <header>, <footer>, <nav>, <audio>, <video>, <main> and etc...
+	 
+	 New form controls
+	 date, time, email, number, category, title, url, search and etc...
+	 
+	 Multiple support
+	 HTML4  No Support
+	 HTML5 audio and video
+	 
+	 Storage
+	 HTML4 cache and cookies
+	 HTML5 local storage and session storage
+	 ======
+	 
+	 
+	 
+	 
+	 
+	 
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 

@@ -1,0 +1,32 @@
+Topic           Covered       Practice      Interviiew
+
+Home(28/7)       yes
+Introduction     yes
+Editors          yes
+Basics           yes
+Elements         yes
+Attributes       yes
+Headings         yes
+Paragraphs       yes
+Styles (4/8)     yes
+Formatting       yes
+Quotations
+Comments         yes
+Colors           yes
+Links            yes
+Bookmarks
+images           yes 
+image map
+Background image
+Favicon          yes
+Tables           yes
+Lists            yes
+block-inline     yes
+semantic         yes
+====
+
+id
+forms
+form attributes
+
+        

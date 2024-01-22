@@ -1,0 +1,15 @@
+<html lang="en">
+
+<head>
+   <title>Style</title>
+</head>
+<body>
+  <h1 style="background-color:yellow;color:red;">This is h1 heading with background-color orange</h1>
+  <h2 Style="color:green;background-color:red;">This is h2 heading with text color red</h2>
+  <p style="font-family:sans-serif;">This is a para with font-family algerian</p>
+   <p style="font-size:40px;">This is a para with font size 40px</p>
+   <p style="font-size:10px;">This is a para with font size 10px</p>
+   <p style="text-align:center;">This is a para with text-align center</p>
+   <p style="text-align:right;">This is a para with text-align right</p>
+ </body>
+ </html>

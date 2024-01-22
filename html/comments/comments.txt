@@ -1,0 +1,22 @@
+HTML Comments Tags:
+ HTML Comments cannot be displayed in the browser, but they can 
+ help developers to understand HTML code.
+ You can add comments to the HTML source code by using the following syntgax.
+ Syntax:
+   <!--write you comments here-->
+There is an exclamation point(!) in the start tag and not in the end tag.
+With comments you can make notifications and remainders in HTML code.
+Example:
+  <!--This is a comment-->
+  <p>This is a paragraph</p>
+  <!---Remember to add more information here--->
+
+FAQ:
+What are usages of comments in html?
+ 2 usages:
+  1.If you comment code, that will not be executed by the browser.
+  2.Comments are also great for debugging HTML, because you can comment
+  out the HTML lines of code, one at a time, to search for errors.
+ You can explain the functionality of the code to other developers by 
+ using the comments.
+ 

@@ -1,0 +1,82 @@
+What is the use of table element?
+   We can arrange data into rows and columns.
+   It consists of cells inside rows and columns.
+=====
+What is table rows?
+   Each table row starts with <tr> and ends with </tr> tag. tr stands for 
+   table row.
+   we can make many rows, just make sure that the number of cells arrange 
+   the same in each row.
+======
+What is table cells?
+   Each tabel cell starts with <td> and ends with </td> tag, it stands for
+   table data.
+   Everything between <td> and </td> are the content of the table cell.
+======
+What is table header?
+ If we want to make cells to be headers, in those cases <th> taag has between
+ used instead of <td>.
+ By default, the text in <th> tad are contened and bold, but we can change
+ by using CSS.
+======
+How to add a border for tables?
+ To add a border, use CSs property on table, th, and td element.
+ When you want to add border to a table, you can add border around each 
+ table cell.
+ Example:
+   table, th, td{
+    border: 1px solid black;
+   }
+====
+ What is table colapsed 
+
+
+
+
+
+
+
+
+
+
+
+
+   
+ 
+==== 
+ Round Table Borders:
+  To get the round borders, we use the border-radius property.
+  the border-radius property used to get rouder corners of a border.
+  You can skiip the table border by leaving out the tabel from the CSS selector.
+  Example:
+  th, td{
+	border-radius: 5px;
+	}
+====
+HTML Table Sizes:
+ HTML tables can have different sizes for each column, row and an entire 
+ table.
+ Use the style attribute to specify the size of a column, row and a table.
+====
+HTML Table Width:
+ To change the width of a table, add the style attribute with width to a 
+ table element.
+Example:
+ <table style="width:50%">
+ </table>
+====
+HTML Table Column Width:
+	To set the size of a specific column, add style attribute on <th> or <td>.
+Example:
+<th style="width:30%">
+</th>
+===
+HTML Table Row Height:
+  To set the height of a specific row add the style attribute on a table row
+  element.
+  Example:
+	<tr style="height:50px">
+	</tr>
+===
+HTML Table Headers:
+	

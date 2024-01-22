@@ -1,0 +1,14 @@
+h2{
+	text-align:center;
+	color:blue;
+}
+p{
+	color:red;
+	text-align:center;
+}
+h1, h3{
+	text-align:center;
+	/*border: 40px;
+	margin-top:10px;*/
+	
+}

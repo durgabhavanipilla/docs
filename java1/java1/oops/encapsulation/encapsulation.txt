@@ -1,0 +1,14 @@
+What is Encapsulation?
+    Datahiding + Abstraction 
+    The process of binding the data/properties and its corresponding methods into a
+    single unit is called encapsulation.
+    Declaring the properties as private methods as public is called
+    Encapsulation.
+--
+What is tightly encapsulated class?
+    A class is said to be tightly encapsulated if and only if each and every
+    variable declared as private.
+    We no need to check the below points.
+    Whether class contains corresponding getter and setter methods are not.
+    Whether getter and setter methods are declared as poblic or not.
+--

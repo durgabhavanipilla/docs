@@ -1,0 +1,22 @@
+
+How to write a CSS code?
+ A CSS consists of a selector and a declaration block.
+ Where selector points to the HTML elenent you want to style.
+ Declaration block contains one or more declaration, seperated 
+ by a semicolon [;].
+ Each declaration includes a css property-name and property-value, 
+ separaated by a colon[:].
+ Declaration block is surrounded by curly  braces.
+ Syntax:
+  selector{
+    property-name1 : property-value1;
+    property-name2 : property-value2;
+    property-name3 : property-value3;
+  }
+  =====
+  Example:
+    h3{
+        color : red;
+        background-color : green;
+        border : 1px solid red;   
+    }

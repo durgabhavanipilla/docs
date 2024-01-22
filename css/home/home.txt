@@ -1,0 +1,4 @@
+What is CSS?
+ CSS is the styling language we use to style html document.
+ CSS describes how html elements should be displayed.
+ The current version of css is CSS3.

@@ -1,0 +1,30 @@
+.margin1{
+	 width: 300px;
+	 border: 10px solid red;
+	 margin: 10px;
+}
+.margin2{
+	width: 300px;
+	border: 10px solid green;
+	margin-top: 10px;
+	margin-right:20px;
+	margin-bottom: 30px;
+	margin-left: 40px;
+}
+.margin3{
+	width: 300px;
+	border: 10px solid green;
+	margin: 0 auto;
+}
+.margin4{
+	border: 10px solid blue;
+	margin: inherit;
+}
+.margin5{
+	boder: 10px solid blue;
+	margin: 0px 20px 0px 20px;
+}
+.margin6{
+	boder: 10px solid blue;
+	margin: 0px 20px 0px 20px;
+}

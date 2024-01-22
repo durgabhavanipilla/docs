@@ -1,0 +1,43 @@
+                                                                                      
+HTML Liinks are Hyperlinks.
+ You can click on a link and jump to another document.
+ When you move the mouse over a link, the mouse arrow will change
+ to little hand.
+=====
+ HTML Links - The target Attributes:
+  By default, the linked page will displayed in the current browser 
+  window.
+  To change this, you must specify another target for the link.
+  The target attribute specifies where to open the link.
+  The target attribute can have one of the following values.
+   -self
+	_blank
+	_parent
+	_top
+ Use target="_blank" in open the linked document in a new browser tab.
+ Example:
+   <a href="http://www.w3schools.com/" target="_blank">
+   Visit w3schools</a>
+
+ Use target="_self" to open the linked document in the current browser tab.
+ Example:
+ <a href="http://www.w3schools.com/" target="_self">
+   Visit w3schools</a>
+======
+Link to an Email Address:
+ Use mailto: inside the href attribute to create a link that opens the users
+ email program.
+ Example:
+   <a href="mailto: someone@example.com">Send mail</a>
+====
+Link Titles:
+  The title attribute specifies extra information about an element.
+  The information most often shown as a tooltip text when the mouse moves
+  over the elements.
+  Example:
+    <a href="http://www.w3schools.com/html" title="Go to w3schools HTML 
+    section">Visit HTML Tutorial</a>
+======
+
+
+   

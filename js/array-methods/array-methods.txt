@@ -1,0 +1,83 @@
+                   *** ARRAY-METHODS ***
+How to convert array to string?
+  toString() method converts an array to a string of comma separated
+  array values.
+  Example:
+  let employees = ["charan", "ravi", "chakri", "sampath"];
+  let employees = employees.toString();
+ ====
+ How to convert array to string with specific separater?
+  The join() method also joins all array elements into a string
+  It behave just like to(), but in addition you can specify the
+  separator.
+  Example:
+  let employees = ["charan", "ravi", "chakri", "sampath"];
+  let employees = employees.join(";");
+ =====
+ What is pop?
+   The pop() method removes the last element from an array.
+   Example:
+   let employees = ["charan", "ravi", "chakri"];
+   employees.pop();
+ =====  
+ What is push?
+   The push() method adds a new element to an array at the end.
+   Example:
+   let employees = ["charan", "ravi", "chakri"];
+   employees.push("cherry");
+ =====
+ What is shift()?
+   The shift() method removes the first element and "shifts" all
+   other elements to a lower index.
+   Example:
+	let employees = ["barath", "sampath", "ravi", "charan"];
+	employees.shift();
+======
+ What is unshift()?
+  The unshift() method adds a new element to an array at the 
+  biginning and "unshifts" older elements to a higher index.
+  Example:
+  const employees = ["bharath", "sampath", "ravi", "charan"];
+  let employees = employees.unshifts();  
+ ====== 
+ How to find array length?
+  The length property provide an easy way to append a new element
+  to an array.
+  Example:
+  const employees = ["Ravi", "sampath", "srinivas", "chakri"];
+  console.log(employees.length);
+=====
+ How to delete element from array from a specified position?
+  We can delete an element from the specified position using delete()
+  method. 
+  delete method leaves an undefined whole in the array.
+ =====
+ *** What is splice method?
+   add/update/delete element/elements at any position.
+   Syntax:
+     splice(n1, n2, element1, element2....elementn);
+   First parameter defines the position where you want to add.
+   Second parameter defines how many elements that you want to remove.
+   the rest parameter defines new elements.
+	 Example:
+	  employees.splice(3,0,"ravi", "raghu");
+ ======
+ *** What is slice?
+   creates a new array from existing array.
+   Syntax:
+     slice (start-index-included, end-index-excluded);
+	Example: 
+    slice(2,4);
+=====
+What is Javascript Array map() method?
+  the Javascript array map() method calls the specific function for
+  every arry element and retuens the new array. This method doesnot change
+  the original array.
+ Syntax:
+  array.map(callback(currentvalue,index,arr,thisArg)
+  Example:
+    var arr = [2, 56, 78,34, 65];
+	var new_arr = arr.map(function(num){
+	              return num / 2;
+	     });
+     console.log(new arr);

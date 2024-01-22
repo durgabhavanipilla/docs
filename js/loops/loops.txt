@@ -1,0 +1,109 @@
+           LOOPS
+Why do we need loop?
+	To execute the logic repeatedly.
+What are the types of loops?
+for: 
+	loops through a block of code number of times.
+	Syntax:
+	for(initialization; condition; increment/decrement){
+	 //write your code here..., may be single line or 100 lines
+	 //getEmployee();
+	 //it will execute multiple times based upon the condition
+	}
+	Example:
+	for(let i = 0; i < 10; i++){
+	console.log("This is my logic i want to execute 10 times" +i);
+	}
+	const employees = [ "Steven", "Neena", "Lex", "Alaxander", "David", "Valli"];
+	for(let i = 0; i < employees.length; i++){
+	console.log(employees[i]);
+	}
+	// array index = 5, length = 6;
+	// index = length - 1;
+=====
+for/in:
+	loops through the properties of an object.
+=====
+for/of:
+	loops through the values of an array.
+=====
+while:
+	loops through a block of code if the specified condition is true.
+	If the condition is true then only executes the block of code.
+=====
+do/while:
+	loops through a block of code if the specified condition is true.
+	It will execute the block of code at least once and checks the condition.
+=====
+=====
+
+
+What is for In?
+  for in statement loops through the properties of an object.
+  Syntax:
+    for (property in object){
+	  //code block to be executed
+	}
+	Example:
+	function forLoop4(){
+		const employee = {empId:"101", firstName:"Durga", lastName:"Bhavani" };
+		let text = "";
+		for(let property in employee){
+		text += employee[property] + "<br>";
+		}
+		document.getElementById("cars").innerHTML = text;
+	}
+=====	
+What is For Of?
+		for of statement loops through the values of an iterable array.
+	Syntax:
+	  for(value of iterable){
+	    //code block to be executed
+	  }
+	Example:
+		function forOf(){
+		  const employees = ["Steven", "Neena", "Lex"];
+		  let text = "";
+		  for (let employee of employees){
+		    text += employee + "<br>";
+		  }
+		   document.getElementById("cars").innerHTML = text;
+		}
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

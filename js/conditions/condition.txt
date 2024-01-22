@@ -1,0 +1,89 @@
+                   Conditionals statements in JavaScript:
+ Why we need to use conditional statements?
+  conditional statements are used to perform different actions based on 
+  different conditions.
+====
+What are the conditional statements?
+     if
+     if-else
+	 else-if ladder
+	 switch case
+=====
+ What is if statement?
+  if the specified condition is true, then only if block of code will 
+  execute.
+  Syntax:
+     if(condition){
+	  // true condition block of code;
+	  }
+  Example:
+     if(age>=18){
+	  // write a logic for applying voter card;
+	  }
+======
+What is else statement?
+  if the specified condition is false, then only else block of code
+  will execute.
+ Syntax:
+      if(condition){
+	  //condition true block of code
+	  }
+	  else{
+	  //condition not true block of code
+	  }
+Example:
+     if(age >= 18){
+	    //write a logic for applying voter card
+	 }else{
+	   //write a logic to show information to the user
+	 }
+=====
+ What is else if statement?
+   else statement is used to specify a new conditon.
+   if the condition is true, it will execute if block.
+   if the condition is false, it will execute else block.   
+  Syntax:
+        if(condition1){
+		  // condition1 true block of code;
+		  } 
+		  else if(condition2){
+		     //else if condition2 true block of code
+		  else{
+			 // if all condition not true block of code
+			}
+			                 }
+	Example:
+     if(class<=5){
+        //Go to Primary school
+    }
+	else if (class<=10){
+	    // Go to High school
+	}else if (clas<=12){
+	    // Go to Inter college
+	}else if (class<=15){
+	    // Go to Degree college
+	}else{
+	  // Go to PG college
+	}		
+====
+What is Switch case?
+  if you want to check more conditions [more than 4], its better
+  to use switch instead of else if ladder.
+====
+Difference between else if ladder and switch?  
+		  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

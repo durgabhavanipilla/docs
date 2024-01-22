@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css"></link>
+ </head>
+ <body>
+    <h2 style="text-align: left;">Form</h2>
+    <form action="/employee.jsp" method="post">
+    <fieldset>
+     <label for="fName">FirstName:</label>
+     <input type="text" id="fName" name="firstName" class="fn" required><br>
+     <label for="mName">MiddleName:</label>
+     <input type="text" id="mName" name="middleName" class="mn"><br>
+     <label for="lName">LastName:</label>
+     <input type="text" id="lName" name="lastName" class="ln"><br>
+     <!--label for="dt">Date</label>
+     <input type="date" id="dt" name="Date"><br-->
+     <label for="email">Email:</label>
+     <input type="email" id="email" name="email" required><Br>
+     <label for="pwd">Password:</label>
+     <input type="password" id="pwd" name="password" required><br>
+     <label for="your-self">Write Something About Your Self:</label><br>
+     <textarea name="message" id="your-self" cols="20" rows="10">
+        textarea 
+     </textarea><br>
+     </fieldset>
+     <fieldset>
+        <legend>Company Information</legend>
+        <label for="departmentName">Department Name:</label>
+        <input type="text" id="departmentName" name="departmentName"><br>
+        <label for="managerName">Manager Name:</label>
+        <input type="text" id="managerName" name="managerName">
+     </fieldset>
+     <input type="submit" value="submit">
+     <button type="button" onclick="widows.alert('we will learn javascript soon')">
+      Button</button>
+     </form>
+</body>
+</html>

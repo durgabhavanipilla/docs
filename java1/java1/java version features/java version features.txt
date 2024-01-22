@@ -1,0 +1,20 @@
+Java 1.5 version features
+    1. for each loop
+    2. var-arg methods
+    3. autoboxing and auto-unboxing
+    4. generics
+    5. co-variant return types
+    6. annotations
+    7. enums
+    8. Queue
+    9. static imports
+--
+Java 1.6 version features
+Java 1.7 version features
+Java 1.8 version features
+Java 9 version features
+Java 10 version features
+Java 11 version features
+...
+...
+Java 20 version features

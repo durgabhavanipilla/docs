@@ -1,0 +1,89 @@
+Reserved Words
+    Words which are reserved to represent some meaning or functionality,
+    such type of words are called reserved words.
+    java-8  53
+    java-20 64
+reserved words(53)
+    keywords(50)
+        used(48)
+        unused(2)
+    literals(3)
+        true
+        false
+        null
+--
+1. data types (8)
+    byte, short, int, long, float, double, char, boolean
+2. control flow (11)
+    if, else, switch, case, default, do, while, for, break, continue, return
+3. modifiers (11)
+    public, private, protected, static, final, abstract, synchronized, native,
+    strictfy(1.2), transient, volitile.
+4. exeception handling (6)
+    try, catch, finally
+5. class related (4)
+    class, interface, extends, implements, package, import
+6.object related (4)
+    new, instanceof, super, this
+7. void return type (1)
+    void
+    return type is manidetory in java, if a method dont not return anything
+    then we have to declare that method with void return type.
+    but in 'c' return type is optional and default return type in int.
+    but in 'javascript' return type is optional and no default return type.
+8. Unused keywords
+    a. goto 
+        usage of goto create several problems in old languages and hence 
+        sun-micro-systems banned to use this keyword in java.
+    b. const
+        use final instead of const.
+    Note: goto and const are unused keywords and if we are trying to use
+    we will get compile time error.
+9. Reserved literals
+    true, false valuses for boolean datatypes
+    null is default value for object reference.
+10. enum(1.5) keyword
+    We can use enum to define a group of named constants.
+    enum Month{
+        Jan, Feb, ...., Dec;
+    }
+--
+Conclusion
+1. All 53 reserved words in java contains only lower case alphabet symbols.
+2. In java we have new keyword and there is no delete keyword because
+    jvm will takes care of deletion of un-referenced objects.
+
+3. The following are new keywords in java.
+    1. strictfp(1.2)
+    2. assert(1.4)
+    3. enum(1.5)
+
+4. strictfp         but not strictFp
+    instanceof      but not instanceOf
+    synchronized    but not synchronize
+    extends         but not extend
+    implements      but not implement
+    import          but not imports
+    const           but not constant
+
+Q. Which of the following list contains only reserved words.
+
+    01. new, delete.
+    02. goto, constant.
+    03. break, continue, return, exit.
+    04. final, finally, finalize.
+    05. throw, throws, thrown.
+    06. notify, notifyAll.
+    07. implements, extends, imports.
+    08. sizeOf, instanceof.
+    09. instanceOf, strictFp.
+    10. byte, short, Int.
+    11. None of the above.
+
+Q. which of following are java reserved words?
+    1. public
+    2. static
+    3. void
+    4. main
+    5. String
+    6. args

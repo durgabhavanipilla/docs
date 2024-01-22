@@ -1,0 +1,18 @@
+Let keyword in javascript
+
+What is let?
+ let keyword was introduced in ES6(2015).
+ It is one of the variable type.
+ It cannot be redeclared.
+ It must be declared before usage.
+ re-assignment is possible.
+ It has a block scope.
+====
+Why let is introduced in ES6?
+  Variables defined with var type can be re-declared.
+  Re-declaring the variable is wrong approach.
+  To overcome the re-declaration, let keyword was introduced.
+ ====
+ 
+ FAQ:
+ What is the difference between ES5 and ES6?

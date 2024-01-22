@@ -1,0 +1,23 @@
+Topic				covered			practice		interview
+
+Home
+introduction		yes				yes				yes
+syntax				yes				yes				yes
+selectors			yes				yes				yes
+how to				yes 			yes				yes
+comments			yes				yes				yes
+colors				yes				yes				yes
+background-color 	yes				yes				yes
+background-image	yes				yes				yes
+background-repeat
+background-attachment
+background-shortand
+borders				yes				yes
+margins				yes				yes
+padding				yes				yes
+borders				yes				yes
+icons
+height/width		yes				yes
+lists				yes				yes
+outline				yes				yes
+tables				yes 			yes

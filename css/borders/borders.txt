@@ -1,0 +1,105 @@
+   Borders
+   How to apply borders?
+   Borders property allows us to specify the width, style, color and radius of 
+   an element border.
+=====
+ What is border-style property?
+   border-style property specifies what kind of border to display like solid,
+   dotted and dashed etc.
+   Syntax:
+        border-style : value;
+   Example:
+        border-style : solid;
+=====
+ How to apply specific side border style?
+  1.border-top-style
+  2.border-right-style
+  3.border-bottom-style
+  4.border-left-style
+=====
+ What is border-width property?
+  border-width property specifies the width property specifies the width of 
+  the four borders.
+  The width can be set as a specific size(in px, pt, cm, em etc) or by 
+  using predefined values like thin, medium or thick.
+  Syntax: 
+        border-style : value;
+        border-width : value;
+   Example:
+        border-style : solid;
+        border-width : 5px;
+Note: please apply border-style property before applying the border-width 
+     property.
+======
+How to apply specific side border width?
+   Syntax:
+         border-width : top-and-bottom right and left;
+   Example:
+         border-width : 10px 15px;
+         border-width : 10px 15px 20px 25px;
+=======
+What is border-color property?
+ The border-color property is used to set the color of the four borders.
+ Apply border style,cOlor can be set be name, HEX, RGB ,HSL.
+ Note: please before apply border-style ,border-width property before applying the border-color width.
+ If border-color is not set, it inherit the color of the element.
+ Example:
+        border-color : red;
+======
+How to apply specific side border color?
+ Syntax:
+        border-color : red green;
+        border-color : red green blue yellow;
+======
+What is border-shorthand property?
+ To shorten code, it is possible to specific all individual border properties in one property.
+ Syntax:
+       border : width style color;
+       border : 5px solid green;
+=====
+How to apply rounded borders?
+ border-radius property is used to add round borders to an element.
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

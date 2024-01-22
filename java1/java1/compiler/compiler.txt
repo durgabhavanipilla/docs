@@ -1,0 +1,3 @@
+What is java compiler?
+How to invoke java compiler?
+    By using javac command, which is available in bin folder.

@@ -1,0 +1,20 @@
+
+   Editors
+       notepad
+	   notepad|++
+=====
+ IDES
+    Integrated Development Environments
+	   visual-studio-Code     Mocrosoft
+	   Webstrome              jetbrains
+	   Eclipse                Eclipse
+ =====
+  Online Editors
+     http://stackblitz.com/
+	 http://codopen.io/
+	 http://jsfiddle.net/
+	 
+ ====
+ FAQS
+    What are IDES that you have used in your project?
+	What are online editors that you aware?

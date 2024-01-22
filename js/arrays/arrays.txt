@@ -1,0 +1,139 @@
+
+               *** Arrays in Javascript:
+What is an Array?
+	An array is a special variable, which can hold more than one value.
+	Syntax:
+		varType arrayName = [];
+		varType arrayName = ["value1", "value2", "value3"];
+	Example:
+		let employees = [];
+		let employees = ["Durga", "Salma", "Sushma", "Azar"];
+=====
+ Why use Arrays?
+	If you want to group similar items, we use arrays.
+	Example: 
+	 let employeesArray = ["Raghu", "Kishan", "Uday"];
+=====
+ How to create an Array with empty value?
+	let employees = [];
+	let employees new Array;
+	
+	The two examples above do exactly the same.
+	There is no need to use new Array().
+	For simiplicity, readability and execution speed.
+	use the array literal method.
+=====
+How to create Array with values?
+	let employeesArray = ["Sai", "Raj", "Bharath"];
+	let employeesArray = new Array("Sai", "Raja", "Bharath");
+    let employeesArray new Array("Sai", "Raja", "Bharath");
+====
+How to create an array with new keyword?
+	const employeesArray = new Array();
+	const employeesArray = new Array("Sai", "Raja", "Bharath");
+====
+How to create an array with initial index?
+	const employees = new Array(4);
+	usecase
+	If you want to create an array with initial index and empty 
+	values[undefined].
+====
+How to get the values from an array?
+    By using the index.
+	let employeesArray = ["Sai", "Raja", "Bharath"];
+  Syntax:
+     varType varName = arrayName[index];
+   Example:
+     let emp1 = employeesArray[0];
+	 let emp2 = employeesArray[1];
+====
+How to update the values into array?
+	By using the index.
+	let employeesArray = ["Sai", "Raja", "Bharath"];
+  Syntax:
+    arrayName[index] = value;
+  Example:
+    employeesArray[0] = "Vasu";
+	employeesArray[1] = "Rani";
+====
+How to find the array length?
+	By using the length property, we can find the array length.
+	Example: 
+	let employeesArray = ["Sai", "Raja", "Bharath"];
+	let length = employeesArray.length;
+====
+How to access first element?
+  By using index 0.
+  Syntax:
+    let firstElement = arrayName[0];
+  Example:
+    let emp1 = employeesArray[0];
+======
+How to  access last element?
+    By using (length - 1)
+	Syntax:
+	   let lastElement = arrayName[length - 1];
+	Example:
+	    let empn = employeesArray[length - 1];
+=====
+How to access/iterate all elements from array?
+	By using for loops.
+	Example:
+	  //TODO Refer the loops topic
+=====
+What is the difference between Arrays and Objects?
+	Arrays use numbered indexes, Objects uses named indexes.
+====
+When to use Arrays, When to use Objects?
+  Arrays for grouping the values, Objects for grouping values 
+  in the value pair.
+====
+How to print specifically the given object is array or object?
+  By using isArray() method.
+====
+What is the difference between typeof and instanceof operator?
+  typeof operator will print datatype.
+  instanceof operator will return true or false by checking the 
+  given object with specified object type.
+====
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+==============
+
+	 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

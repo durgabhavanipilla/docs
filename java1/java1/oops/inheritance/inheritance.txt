@@ -1,0 +1,51 @@
+What is inheritance?
+    Extending the parent class features into child class.
+    Extending the parent class properties and methods into child class.
+--
+What is super class of all the classes in java?
+    java.lang.Object
+--
+What is the use inheritance?
+    reusability
+--
+What are the possible inheritance types in java?
+    Single
+    Multiple
+    Hierarchical
+    * Multiple
+    * Hybrid
+--
+Single Inheritance
+    If a class is extending from another class is called Single Inheritance.
+Example:
+    Users, Employees
+--
+Multilevel Inheritance
+    If a class is extending from another class which is extending from another
+    class is called Single Inheritance.
+Example:
+    Users, Employees, Managers
+--
+Hierarchical
+    If a same class extending from different classes is called Hierarchical
+    Inheritance.
+Example:
+    Users, ContractualEmployees, PermenantEmployees
+Is Multiple Inheritance possible in java?
+    No, by using classes
+    ContractualEmployees, PermenantEmployees, HumanResource
+    Yes, by using interfaces
+--
+What is super keyword?
+    super keyword defines parent object.
+What is the use of super keyword?
+Tell me the scenario where we use super keyword in java?
+What is super() method?
+//TODO
+--
+What are final variables?
+    can't re-assign
+    Users.java
+    public class Users {
+	public final String country = "INDIA";
+    }

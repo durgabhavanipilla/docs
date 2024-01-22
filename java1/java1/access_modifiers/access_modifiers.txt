@@ -1,0 +1,181 @@
+class modifiers
+variable modifiers
+method modifiers
+
+Class level modifiers
+Whenever we are writing our own classes we have to provide some information
+about our class to the JVM like
+
+1. Whether this class can be accessable from any where or not.
+2. Whether this class can be accessable within the package or not.
+3. Whether child class creation is possible or not.
+4. Whether object creation is possible or not.
+
+We can specify this information by using appropriate modifier.
+
+The only applicable modifiers for top level class are
+
+public
+default
+final
+abstract
+strictfp
+
+But for inner classes the applicable modifiers are
+
+public
+default         private
+final       +   protected
+abstract        static
+strictfp
+--
+private class Example
+private class Employees{}
+CE: modifier private not allowed here.
+--
+what is the difference between Access specifiers vs Access modifiers?
+public, private, protected, default are considered as specifiers
+except these remaining are considered as modifiers
+but this rule is applicable only for old languages like c++
+but not in java.
+in java all are considered as modifiers only there is no word like specifiers.
+--
+public classes.
+    if a class declared as public then we can access that class from any where
+Example
+EmployeesService.java
+    package service;
+    public class EmployeesService{
+        public String getEmployee(){
+            return "Salma";
+        }
+    }
+    javac -d . EmployeesService.java
+--
+EmployeesController.java
+    package controller;
+    import service.EmployeesService;
+    public class EmployeesController{
+        public static void main(String[] args){
+            EmployeesService service = new EmployeesService();
+            String name = service.getEmployee()
+            System.out.println("name = "+ name);
+        }
+    }
+    javac -d . EmployeesController.java
+    java controller.EmployeesController
+    output: name = Salma
+==
+if class EmployeesService is not public then while compiling
+EmployeesController class will get compile time error
+CE: EmployeesService is not public in service; cannot be accessed from outside
+package
+--
+Default classes.
+    if a class declared as default then we can access that class only within
+    current package. i.e from outside we can't access
+    Hence default access is also known as package level access.
+    CE: EmployeesService is not public in service; cannot be acced from outside 
+    packages.
+--
+final modifier
+    final is the modifier applicable for classes, methods and veriables.
+
+==
+final class
+if a class declared as final we can't extend functionality of that class
+i.e we can't create chlid class for that class.
+i.e inheritence is not possible for final classes.
+
+public final class Users{
+    public String userName = "salma.sk";
+    public String mobileNo = "9876543210";
+}
+
+public class Employees extend Users{
+    public String firstName = "Salma";
+    public String lastName = "Shaik";
+    public static void main(String[] args){
+        Employees emp = new Employees();
+        System.out.println(firstName = "+ emp.firstName);
+        System.out.println(lastName = "+ emp.lastName);
+        System.out.println(userName = "+ emp.userName);
+        System.out.println(mobileNo = "+ emp.mobileNo);
+    }
+}
+javac Employees.java
+CE: cannot inherit from final Users
+
+Note
+    Every method present inside final class is always final by Default
+    but every variable present inside final class need not be final.
+
+    The main advantage of final keyword is we can achive security and we can
+    provide unique implementation.
+
+    But the main disadvantage of final keyword is we are missing key benefits
+    of oops: inheritence, (because of final classes) and polymorphism because
+    of final methods. Hence if there is no specific requirement then it is not
+    recommended to use final keyword.
+==
+abstract modifier
+    An abstract is modifier applicable for classes and methods but not for
+    variables.
+--
+Abstract Methods
+    Even through we don't know about implementation still we can declare a method
+    with abstract modifier i.e for abstract methods only declaration is available
+    but not implementation hence abstract method declaration should ends with
+    semicolon ';'.
+Example:
+public abstract void m1();  //valid
+public abstract void m1(){} //invalid
+--
+Child class is responsible to provide implementation for parent class abstract
+method.
+--
+public abstract class Users {
+    public String getUserName() {
+        return "Salma";
+    }
+    public abstract String getMobileNo(); 
+        //No logic // no implementations
+        // declaration there is no defination
+}
+
+public class Employees extends Users{
+    public static void main(String[] args) {
+        // Users user = new Users();
+        // CE: Users is abstract; cannot be instantiated
+        Employees emp = new Employees();
+        String userName = emp.getUserName();
+        String mobileNo = emp.getMobileNo();
+        System.out.println(userName);
+        System.out.println(mobileNo);
+    }
+    //override or overwrite
+    public String getMobileNo() {
+        //logic = implementations = defination
+        return "9876543210";
+    }
+}
+
+By declaring abstract method in the parent class we can provide guidelines to
+the child classes such that which method compulsory chid has to implement.
+
+Abstract method never talks about implementation if any modifier talks about 
+implementation then it forms illegal combination with abstract modifier.
+
+The following are various illegal combination of modifiers for methods with 
+respect to abstract.
+
+1. abstract final
+2. abstract native
+3. abstract synchronized
+4. abstract static
+5. abstract private
+6. abstract strictfp
+
+e.g abstract final void m1(); // CE: illegalCombination of modifiers :
+abstract and final.
+--

@@ -1,0 +1,75 @@
+
+ HTML Paragraphs:
+   The HTML <p> element defines a paragraph.
+   A paragraph always starts on a new line and browsers automaatically 
+   add some white space before and after a paragraph.
+ Example:
+       <p>This is a paragraph.</p>
+	   <p>This is a second paragraph.</p>
+	   <p>This is a thirdd paragraph.</p>
+====
+|Paragraph Display:
+   You cannot be sure how Paragraph will be displayed.
+   Large or small screens, resized windows will create default results.
+   With HTML, you cannot change the display by adding extra space or 
+   extra lines in HTML code.
+   The browser will automaatically remove any extra spaces or lines
+   when the page is displayed.
+  Example:
+   <p>This is a 
+    paragraph with
+	many lines.</p>
+	
+	<p>This  paragraph contains   lot
+	of spaces   in the  source   code,
+	but the   browser  ignores it.</p>
+	
+	<p>The number of lines in the paragraph depends on the size of the
+	  browser, if you resize the browser window the number of lines in 
+	  the paragraph will change.</p>
+=====
+  Horizontal Rules:
+   The <hr> tag defines a thermatic break in HTML page.
+   It is most often displayed in a horizontal rule.
+   It is used to separate content in an HTML page.
+   The <hr> tag has no end tag, it is an empty element.
+ Example:
+    <h1>This is a heading 1</h1>
+	<p>This is a para 1</p>
+	<hr>
+	<h2>This is a heading 2</h2>
+	<p>This is a para 2</p>
+=====
+ Break line:
+   The <br> element defines a break line.
+   use <br> if you want to break the without starting a new paragraph.
+   The <br> tag is an empty tag, that means it has no end tag.
+  Example:
+    <p>This is a<br>paragraph with break line.</p>
+       The Poem Problem:
+       The poem will display on a single line, if you written in <p> element.
+  Example:
+    <p>
+      MY Bonnie lies over the ocean.
+	  My Bonnie lies over the sea.
+	  MY Bonnie lies over the ocean.
+	  Oh, bring back my bonnie to me.
+   </p>
+=====
+  The HTML <pre> element:
+     The How <pre> element defines preformatted text.
+	 The text inside a <pre> element is displayed in a fixed-width font, 
+	 and it  preserves the spaces and line braks.
+  Example:
+    <p>The pre tag preserves both spaces and break lines.</p>
+	<pre>
+	    My Bonnie lies over the ocean.
+		MY Bonnie lies over the sea.
+		My Bonnie lies over the ocean.
+		Oh, bring back my bonnie to me.
+	</pre>
+
+   
+      
+	
+	

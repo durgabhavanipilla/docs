@@ -1,0 +1,27 @@
+margins
+What is margin?
+The space around an element and outside of border.
+====
+How can we specify margin in shorthand?
+we can specify all individual properties using single margin property.
+ syntax: margin: top right bottom left;
+ Example: 10px 20px 30px 40px;
+====
+How can we specify margin in individual sides?
+ We can specify the margin for each side of an element by following
+ below properties.
+   1.margin-top
+   2.margin-right
+   3.margin-bottom
+   4.margin-left
+====
+What are the different property values in margins?
+ auto     - The browser ifself calculates the margin.
+ length   - It specifies a margin in px, pt, cm etc.
+ %        - It specifies the margin in % of the width of an element.
+ inherit  - It specifies that the margin is inherited from the parent 
+           property.
+ Tip: Negative values are allowed.
+What is Margin-collapse property?
+ Top and bottom margins of elements are sometimes collapsed into a single
+ margin that is equal to the largest of the two margins.

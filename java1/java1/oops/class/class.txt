@@ -1,0 +1,72 @@
+What is a Class?
+    Class is a combination of properties and methods.
+    Properties defines the state of the object.
+    Methods defines the behaviour of the object.
+    Class is a logical entity, it is a blueprint of an object.
+    Object is a physical entity, it is a instance of a class.
+--
+Example:
+    Class           Constructor     Object
+    Blueprint       Constructor     Home1, Home2, Home3
+    Prescription    Medicalshop     Medicines1, Medicines2, Medicines3
+    Employees       Constructor     Salma, Sajid, Majid, Reshma
+    Account         Constructor     SalmaAccount, SravathiAccount
+--
+Syntax:
+class ClassName {
+    // properties
+        //Properties are declared in constructor itself in javascript language
+        //Properties are not declared in constructor in java language
+    // constructor
+        // A class may only have one constructor in javascript language [0 or 1]
+        // A class can have atleast one constructor in java language [1 or *]
+    // methods
+        // A class can have multiple methods [0 or *]
+}
+Example:
+class Employees {
+    // properties
+    
+    Employees() {
+    }
+
+    // methods
+    boolean createEmployee() {
+        //approx 100 lines of code
+    }
+    List getEmployee() {
+        //approx 100 lines of code
+    }
+    boolean updateEmployees() {
+        //approx 100 lines of code
+    }
+    boolean deleteEmployee() {
+        //approx 100 lines of code
+    }
+}
+==
+What is constructor?
+    The constructor is a special method.
+    It has to have exact name as "ClassName".
+    It is executed sutomatically when a new object is created.
+    It is used to initialize object properties.
+Syntax:
+    ClassName() {}
+    ClassName(org1, org2, org3) {
+        this.prop1 = org1;
+        this.prop2 = org2;
+        this.prop3 = org3;
+    }
+Example:
+    public Employees() {}
+    public Employees(employeeId, email, phoneNumber) {
+        this.employeeId = employeeId;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+What is the difference between no org constructor and org constructor?
+--
+What is a final Class?
+What is the use of the final class?
+    final class won't allow to create an object.
+    you can access variables and methods using the class name only.

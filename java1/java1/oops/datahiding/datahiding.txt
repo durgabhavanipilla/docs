@@ -1,0 +1,22 @@
+What is Datahiding?
+    One class properties can't access from another class.
+    By declaring properties as private, we can achive data hiding.
+    The main advantange of data hiding is security.
+    It is highly recommended to declare properties as private.
+--
+public class Employees {
+    public String firstName = "Salma";
+    public String lastName = "Shaik";
+    private String salary = "20000";
+    private String commissionPct ="0.3";
+}
+--
+public class Departments {
+    public static void main(String[] args) {
+            Employees employees = new Employees();
+            System.out.println(employees.firstName);
+            System.out.println(employees.lastName);
+            //System.out.println(employees.salary);
+            //System.out.println(employees.commissionPct);
+        }
+    }

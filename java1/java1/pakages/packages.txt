@@ -1,0 +1,59 @@
+What is packages in java?
+    To group of related classes and interfaces into a single package/module.
+--
+The main objectives of packages are 
+    resolve naming conflicts
+    improve modularity of the application
+    provides security
+--
+The universal accepted naming convention for packages is,
+    use internet domain name is reverse.
+    Example
+        domain name : https://icicibank.com/loan/housing/
+        package name: com.icicibank.loan.housing;
+    --
+    com.icicibank   --> client internet domain name in reverse
+    loan            --> module
+    housing         --> sub module
+    Account         --> class
+--
+Example
+    package com.icicibank.loan.housing;
+    class Account {
+        public static void main(String[] args){
+            System.out.println("package demo");
+        }
+    }
+--
+How to compile package program?
+    >javac Account.java
+        class file will be placed at package directory
+    >javac -d . Account.java
+        class file will be placed at current working directory
+    >javac -d c:\work\apps\src Account.java
+        class file will be placed at specified directory
+--
+How to execute package program?
+    java com.icicibank.loan.housing.Account
+--
+Note 1
+    only one package statement in a java file.
+    otherwise we will get compile time error.
+Example:
+    package com.icicibank.loan.housing;
+    //package com.icicibank.loan.personal;
+    class Account {
+        public static void main(String[] args){
+            System.out.println("package demo");
+        }
+    }
+--
+Note 2
+    The 1st uncommented statement should be a package statement in a java file.
+    otherwise we will get compile time error.
+    import java.util.data;
+    class Account {
+        public static void main(String[] args){
+            System.out.println("package demo");
+        }
+    }

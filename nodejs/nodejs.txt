@@ -1,0 +1,134 @@
+
+
+Google   V8   JavaScript    runtime engine
+		Google     Chrome
+		Microsoft	Edge
+		-----
+		OpenJs	    NodeJS
+		JavaScript
+			  V8    JavaScript  engine
+			  hardware
+			  ----
+			  C, C++, C#, objectiveC, java, python
+			  OPCODE
+			  Byte Code  -- and bits  0, 1
+			  hardware
+=====
+What is NodeJs?
+	Node.js is an open-source, cross-platform, back-end JavaScript runtime
+	environment.
+	Which is built on Chrome's V8 JavaScript engine (JS Compiler).
+	and executes JavaScript code outside a web broswer.
+=====
+What is V8?
+	V8 is Google's open source high-performance, JavaScript and WebAssembly
+	engine, written in C++.
+	It is used in Chrome, Node.js and among others.
+	It impliments 	ECMAScript and WebAssembly, and runs on Windows 7 or later.
+	macOS 10.12+, and Linux systems that use x64, IA-32, ARM, or MIPS processors.
+	V8 can run standalone, or can be into any C++ application.
+=====
+What is the use of nodeJS?
+	We can run javascript files from the CLI by using nodeJS, without
+	having any web browser.
+	It acts like as a server, it will compile and runs the js files.
+	nodejs itself acts as a server, means we can run our application
+	without servers.
+	serverless containers.
+=====
+How to download nodeJS?
+	http://nodejs.org/en/download/
+	windows Installer (.msi)
+	windows Binary (.zip)
+=====
+How to install?
+	Download the nodejs file from Windows binary (.zip) 64-bit.
+	Extract the file to your system at particular folder.
+====
+How to set nodejs path?
+	Click on windows + S.
+	In search bar, then type environment variables.
+	There you can find User variables and System variables.
+	If you are the Admin then go for System Variables and find Path name 
+	in that window.
+	There click on edit and copy the nodejs path form the folder(where you have
+	downloaded) and paste it in the path window and click on OK.
+	If you are the user then fo for User variables and find the Path name in 
+	that window.
+	There click on edit and copy the nodejs path from the folder(where 
+	you have downloaded) and paste it in the path window and click on OK.
+	After this, you can run the nodejs (by using cmd) from any folder of the system.
+	C:\Users\user\work\node-v18.15.0
+=====
+WAhy we need to set the NodeJS path?
+	If we dont set the path then we need to go to the nodejs folder(where you 
+	have downloaded) and there only we can execute the javascript code.
+	If we set the path then the code can be executed (can access nodejs) from any
+	folder present in your system.
+=====
+What is the difference between interpreter and compiler?
+	If any error in code, interpreter won't stop the intrepretation into that
+	perticular line.
+	If will print error in the console then it will intrepret the next line.
+	If any error in code, compiler will stop there and it will print error in 
+	console. It won't compile next lilne.
+=====
+What is desing time?
+      // TODO Development Time.
+----
+What is compilation time?
+	 //TODO Developer Testing time.
+----
+What is run time?
+	 //TODO Java
+----
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

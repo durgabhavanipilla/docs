@@ -1,0 +1,14 @@
+Images can improve the design and the appearance of a web page.
+The <img> tag is empty, it contains attributes only, and does not have a closing tag.
+
+The <img> tag has two required attributes:
+
+src - Specifies the path to the image
+alt - Specifies an alternate text for the image
+
+Image Size - Width and Height
+width and height attributes:
+Images in Another Folder
+Images from Another Server
+Image as a Link
+To use an image as a link, put the <img> tag inside the <a> tag:

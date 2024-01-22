@@ -1,0 +1,142 @@
+       Functions in Javasscript:
+What is function?
+ function is a block of code designed to perform a particular
+ task.
+ function is executes when "something" invoke it(calls it).
+ Syntax:
+    function <return_type> function_name(
+	 <parameter1, parameter2, parameter3,....parameter-n>)
+     {
+       //bock of code [sometime we will write 100 lines of code]
+       // designed to perform a particular task
+       <return value>;
+     }
+  Example:
+    function boolean createEmployee(firstName, lastName, phoneNo)
+    {
+	 //bock of code [sometime we will write 100 lines of code]
+     // designed to perform a particular task
+	}
+   Parameters are listed inside the paranthesis() in the function
+   definition.
+   Arguments are the values received be the function when it is invoked.
+   Inside the function, the arguments (parameters) behave as local
+   variables.
+=======
+What is function invokation?
+  The code inside the function will execute when "something" 
+  invokes(calls) the function.
+  Example:
+    createEmployee("durga", "bhavani", 9012345678);
+=====
+What is return statement?
+ When function reaches "return" statement, it will returns the value to
+ the caller function and it will stop executing the function.
+  We have to write return statement at the end of the method.
+
+ //If the function was invoked for a statement, javascript will
+ "return" to execute the code after invoking statement.
+ Functions often compute a return value.
+ The return value is "returned" back to the "caller".//
+ Syntax:
+    function functionName(){
+	  //block of code
+	  return something;
+	  }
+Example:
+   function addition(n1, n2){
+     let res = n1 + n2;
+	 retuen res;
+	 }
+====== 
+Why Functions?
+  you can reuse code: Define the code once, and use it many times.
+  You can use the same code many times with different arguments,
+   to produce different results.
+ ===
+ Functions used as variable valaues
+ Syntax:
+    let variableName = functionName();
+ Example:
+     let variableName = addition(12,23);
+ ====
+Local variables:
+ Variablels declared within a function, become LOCAL to the function.
+ Local variables can only be accessed from within the function.
+ Since local variables are only recognized inside their functions.
+ Variablels with the same can be used in different functions.
+Local variables are created when a function starts, and deleted when 
+the function is completed.
+Syntax:
+   function functionName(){
+     let n1;
+     let n2;
+     let res;
+     //block of code
+	 retuen res;
+    }
+Example:
+  function addition(){
+    let n1 = 10;
+    let n2 = 23;
+    let res = n1 + n2;
+    //block of code
+   return res;
+   }
+===
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

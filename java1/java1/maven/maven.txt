@@ -1,0 +1,9 @@
+What is maven?
+    Maven is a powerful project management tool that is based on POM(project object model). It is used
+
+
+--
+understanding
+
+--
+what it does

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<title>WhereTo</title>
+	<script>
+		function internal(){
+		 document.getElementById("internal").innerHTML
+		 ="This is internal JS";
+		 }
+	</script>
+<body>
+	<!--- Script src="whereto.js"></script>--->
+    <h2>Where To </h2>
+	<h2 id="head1">Inline JS</h2>
+	<button onclick='document.getElementById("head1").innerHTML
+	 ="This is Inline JS"'>Inline JS</h2>
+	 <button oncink="internalJS();">Internal JS</button>
+	<script>
+	 function internalJS(){
+	  document.getElementById("head2").innerHTML = "This is Internal JS";
+	  }
+	  </script>
+	  <h2 id="head3">External JS</h2>
+	  <button onclick="externalJS();">External JS</button>
+	  <!---script src="whereto.js"></script>-->
+</body>
+</html>
+<!--
+  Action is performed by the user.
+  Event will be triggered.
+  Subsequent javascript login/function will be executed.
+  --->

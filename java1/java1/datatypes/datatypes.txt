@@ -1,0 +1,19 @@
+Data Types
+    In java every variable and expression have some, type, and every type is
+    strictly defined.
+    Every assignment should be checked by the compiler for compatibility.
+    Because of the above reason we can console java language is strongly typed
+    programming language.
+    Java is not consider as pure Object-Oriented Programming Language.
+    Because of primitive datatypes which are not objects.
+    Because of few OOPs features (operator overloading, multiple inheritance,
+    etc.) are not satisfied by java.
+Data Types
+    non-numeric (Unsigned)
+        boolean
+        char
+    Numaric (Signed)
+        Integral
+        Floating
+    Except boolean and char data types, remaining data types are signed data
+    types, because we can save both the positive and negative numbers.

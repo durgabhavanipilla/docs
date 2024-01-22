@@ -1,0 +1,101 @@
+Declareation and access modifiers 
+    1. java source file structure
+    2. class level modifiers
+    3. member level modifiers
+    4. interfaces
+--
+Java Source file structure
+    A java program can contain any number but at-most one class can
+    be declared as a public.
+    If there is a public class then name of the file name nd public class name
+    must be matched otherwise we will get compile time error.
+Example:
+    Employees.java
+        public class Employees {
+        }
+        class Departments {
+        }
+        class Locations {
+        }
+case 1:
+    If there is no public class then we can use any name as file name and there 
+    is no restriction.
+Example:
+    Regions.java
+        class Employees {
+        }
+        class Departments {
+        }
+        class Locations {
+        }
+--
+case 2:
+    If class Departments is public then name of the java file should be
+    Departments.java otherwise we will get compile time error 
+Example:
+    Employees.java
+        class Employees {
+        }
+        public class Departments {
+        }
+    CE: class Departments is public should be declared in a file named 
+    Employees.java
+--
+case 3:
+    If class Departments and Employees declared as public and name of the file 
+    is Employees.java then we will grt compile time error.
+Employees.java
+    public class Employees {
+        public static void main(String[] args){
+        System.out.println("A Class Main");
+        }
+    }
+    public class Departments {
+        public static void main(String[] args){
+        System.out.println("B Class Main");
+        }
+    }
+    CE: class Departments is public should be declared in a file named 
+    Employees.java
+--
+case 4:
+Employees.java
+    public class Employees{
+        public static void main(String[] args){
+            System.out.println("This is main");
+    }
+    }
+    class Departments{
+    }
+    class Locations{
+    }
+javac Employees.java
+    Employees.class
+    Departments.class
+    Locations.class
+java Employees
+output : This is main
+java Departments
+RE : Main method not found in class Departments
+==
+Conclusions
+    Whenever we are compiling a java program a separate .class file will be
+    generated for every class present in that java file.
+    
+    We can compile a .java file, we can run a .class file.
+
+    Whenever we are executing a java class the corresponding class main()
+    method will be executed. If the class doesn't contain main method then we
+    will get a run-time error.
+    RE : Main method not found in class ClassName.
+--
+Case 5:
+    If the corresponding .class file not available then we will get runtime
+    Error: NoClassDefFoundError.
+Note:
+    It is not recommended to declare multiple classes in a single source file,
+    It is highly recommended to declare only one class per source file and name
+    of the program we have to keep same as class name.
+    the main advantage of this approach is readability and maintainability of
+    the code will be improved.
+==

@@ -1,0 +1,46 @@
+                  JFS-15
+	   
+Profession   : Student  : Softwaare Engineer        : IT employee
+Skill        : MPC      : Web application Deveoper  : Fullstack Deveoper
+Other Skills : 100 + skills are present
+====
+Skills:
+Primary   : Maths   Frontend     100
+Secondary : Physics Middleware   50
+Tertiary  : Chemistry Backend    50
+====
+Frontend    : View Layer       : Frontend Deveoper   : UI Deveoper
+Middleware  : Controller Layer : Middleware Deveoper : Java Deveoper
+Backend     : Model Layer      : Database Deveoper   : Database Deveoper
+=====
+User  : Browser
+====
+ Middleware : Middleware developer
+ Languages:
+   Java 
+       J2SE
+       J2EE
+   IDE : Eclipse
+   API 
+    Spring
+    Spring 	MVC
+	Springboot
+	     10 + dependencies/libraries
+		 log4j2
+		 hibernate
+		 hikaricp
+		 Spring data jpa
+		 Spring cloud
+	Maven
+	Gradle
+====
+
+ Backend : Database Deveoper
+         Relational Database Management System
+		 SQL Based Database
+		 Open Source
+		    MySQL, Oracle XE, PostgreSQL
+			Licenced
+			   Oracle EE, IBM DB2, MS SQLServer
+==========
+Non Relational Database Management System

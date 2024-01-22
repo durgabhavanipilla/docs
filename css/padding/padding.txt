@@ -1,0 +1,50 @@
+padding
+ What is padding?
+ Space aroundan element and inside of border.
+ ===
+ How can we specify padding in shorthand?
+   By using padding property:
+    Syntax: 
+       padding: top right bottom left;
+	Example: 
+	   padding: 10px 20px 30px 40px;
+=====
+ How can we specify padding for individual sides?
+   We can specify the padding for each side of an element by following
+   properties:
+     1.padding-top
+	 2.padding-right
+	 3.padding-bottom
+	 4.padding-left
+=====
+What are the different values for padding property?
+  length  - specifies a padding in px, pt, cm etc.
+    %     - specifies the padding in % of the width of an element.
+  inherit - specifies that the padding in inherited from the parent
+            element.  
+  
+  Tip: Negative values are allowed.
+ ====
+ 
+ Define padding and width elements?
+   The CSS width property specifies the width of element content area.
+   The content area is the portion inside the padding, borer and margin,
+   nothing but an box model.
+   So, if an element has a specified width, the padding added to that 
+   element will be total width of an element.
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   

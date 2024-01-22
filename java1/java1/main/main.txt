@@ -1,0 +1,44 @@
+Explain Java main method?
+    The main() method is the starting point for JVM.
+    Without the main() method, JVM will not execute the developer method.
+--
+The syntax of the main() method is 
+    public static void main(String[] args){}
+--
+public:
+    It is an access specifier. We should use a keyword before the main()
+    method so that JVM can identify the execution point of the program.
+    If we use private, protected, and default before the main() method, it will
+    not be visible to JVM.
+static:
+    Static methods are executed Without creating the object, so we do not need
+    to create an object to call the main() method from JVM.
+    You can make a method as a static method by using the keyword static.
+    JVM will call the main() method Without creating an object.
+--
+void:
+    in Java, every method 
+
+main():
+    It is a default signature which is predefined in the JVM. It is called by
+    JVM to execute a program. We can also overload the main() method.
+--
+String args[]:
+    The main() method also accepts some data from the user. It accepts a group
+    of strings, which is called a string array.
+    It is used to hold the command line arguments in the form of string values.
+    agrs[] is the array name, and it is string type. It means that it can store 
+    a group of strings.
+    agrs[] array can also store a group of numbers, but in the form string
+    only.
+    Values passed to the main() method is called arguments.
+    These arguments are stored into args[] array, so the mame args[] is 
+    generally used for it.
+--
+Overloading of main() method
+    We can also overload the main() method. We can define any number of main()
+    method in the class, but the method signature must be different.
+--
+FAQs
+What happens if the main() method is written in the program without (string[] args)?
+We will get the run time error as main method is not found.

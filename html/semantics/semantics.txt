@@ -1,0 +1,18 @@
+
+What are the semantic elements?
+ semantic elements clearly describes its meaning to both the browser and  
+ the developer.
+Below are the semantic elements:
+    <header>
+    <nav>
+    <main>
+    <selection>
+    <article>
+    <aside>
+    <footer>
+====
+What are the non-semantics elements?
+  Other than semantic elements all are non-semantic elements.
+
+
+What is the difference between semantic and non-semantic elements?

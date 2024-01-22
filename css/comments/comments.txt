@@ -1,0 +1,9 @@
+
+ What is use of comments in CSS?
+  CSS comments are not executed by the browser, comments are ignored 
+  by the browser. 
+  A CSS comments start with /* and end with */
+How many types of comments are in CSS?
+ There are two types of comments.
+  1.single line comments
+  2.multiple line comments                                   

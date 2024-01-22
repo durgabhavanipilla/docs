@@ -1,0 +1,31 @@
+What is JavaScript?
+  JavaScript is the one of the world's most popular programming language.
+  Initially javascript is the programming language of the web-sites[frontend].
+  But now you can use anywhere, middleware and backend.
+  Using javascript we can apply intelligence to web applications.
+===
+Why we need to study javascript?
+    For developing web pages we need 3 languages.
+    1. HTML to define the content of web pages.
+	2. CSS to specify the layout/style of web pages.
+	3. JavaScript to program the behaviour of web pages.
+	It gives the behaviour to the HTML code, and validations are done by using 
+	javascript only.
+	Without javascript, the HTML code specifies that body with no brain.
+====
+ What are javascript versions?
+ The Original JavaScript ES1 ES2 ES3 (1997-1999)
+ The First Main Revision ES5 (2009)
+ The Second Revision ES6 (2005)
+ The Yearly Additions (2016, 2017, .... 2023)
+====
+FAQS:
+How do i get javascript?
+Where can i download javascript?
+Is javascript free?
+You don't have to get or download JavaScript?
+JavaScript is already running in your browser on your computer 
+, tablet and smart-phone?
+====
+What is Ecmascript?
+https://en.wikipedia.org/wiki/Ecmascript 

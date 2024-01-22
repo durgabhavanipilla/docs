@@ -1,0 +1,3 @@
+What is collection?
+    A collection reoresents a group of objects, known as its elements. Some
+    collections allow duplicate elements aand others do not.

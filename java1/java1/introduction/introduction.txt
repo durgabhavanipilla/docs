@@ -1,0 +1,79 @@
+What is JAVA?
+    Java is a simple, secured, portable, high-performance, platform independent
+    programming language, by using java we can develop mobile, desktop, web,
+    enterprise and distributed application.
+--
+What are the java variants?
+    SE 
+    EE 
+    ME 
+    Embedded
+    Card
+    TV
+--
+What is Java SE?
+    Java Standard Edition (Java SE, J2SE), by using this, we can develop and
+    deploy Java applications on desktops and servers.
+--
+What is JDK?
+    JDK stands for Java Development Kit. JDK is a development environment for
+    building desktop, web, enterprise, distributed applications.
+    JDK includes tools useful for developers to develop and test java
+    applications.
+--
+What are the Types of JDKs?
+    JDK, Open JDK, Oracle JDK and etc..,
+    Same features and performance 
+    Difference in licensing
+--
+What is Oracle JDK?
+    Oracle JDK is Oracle's supported Java SE version for customers and for
+    developing, testing and demonstrating Java applications.
+--
+What is Open JDK?
+    Open JDK is meant for developers which offers the same features and 
+    performance as Oracle JDK but Difference in licensing.
+--
+Why Oracle providing different JDKs for Different Operating Systems/platforms?
+    JDK is Platform Dependent, because of Operating Systems such as Windows,
+    Linux, mac and etc are developed by different programming languages, and
+    java is also programming language, if java wants to communicate with 
+    different languages, then java needs a different types translators.
+    Due to this Oracle providing different Oracle JDKs for Different Operating
+    Systems/platforms.
+--
+What is JRE?
+    JRE stands for Java Runtime Environment, by using JRE, we will run the java 
+    applications without comiling, which are developed by using JDK.
+--
+Why Oracle providing different JREs for Different Operating Systems/Platforms?
+    JRE is Platform Dependent, because of Operating Systems such as Windows,
+    Linux, mac and etc are developed by different programming languages, and
+    java is also programming language, if java wants to communicate with 
+    different languages, then java needs a different types translators.
+    Due to this Oracle providing different Oracle JREs for Different Operating
+    Systems/platforms.
+--
+What are the Types of JREs?
+    Private JRE, which is available in JDK
+    Client JRE
+    Server JRE
+--
+Which Java package do I need?
+Software Developers: JDK 
+    It includes a complete JRE plus tools for developing, testing, debugging,
+    and monitoring Java applications.
+--
+End user: Client JRE
+    Client JRE contains everything required to run Java application on client 
+    machine.
+--
+Administrators: Server JRE
+    To run applications on server machine.
+    It includes tools for JVM monitoring and tools commonly required for server
+    applications, but does not include browser integration (the Java plug-in),
+    auto-update, nor an installer.
+--
+What is web site?
+What is Web application?
+What is Enterprise Application?

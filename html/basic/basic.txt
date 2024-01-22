@@ -1,0 +1,148 @@
+What is Internet?
+ The Internet is a vast network that connects computers all over the world
+ through the Internet, people can share information and communicate from
+ anywhere with an Internet connection.
+===
+What is Protocol?
+ Protocol, in computer science, a set of rules or procedures for transmitting
+ data between electranic devices, such as computers.
+ In order for computers to exchange information will be structured and how 
+ each side will send and receive it.
+===
+what is Internet Protocol?
+ IP stands for "Internet Protocol", which is the set of rules land regulations
+ governing the format of data sent via the Internet or local network.
+ In essence, IP addresses are the identifier that allows information to be 
+ sent between devices on a network Ex:255.255.255.234.234.
+===
+What is Internet Protocol address?
+ An Internet Protocol address is a numerical label such as 192.0.2.1 that is 
+ connected to a computer network that uses the Internet Protocol for 
+ communication.
+===
+what is difference between IP4 and IP6?
+ The main difference between IP4 and IP6 is the address size of IP  addresses.
+ The IP$ is a 32-bit address, whereas IP6 is a 128-bit hexa decimal address.
+ IP6 increases the IP address from 32-bits to 128-bits to support larger address 
+ demands.
+===
+How to check IP in windows machine?
+ Open command prompt and type ipconfig.
+===
+What is LAN?
+ A Local Area Network is comopouter network that interconnects comoputers
+ within a limited area such as a residence, school, laboratory, university
+ campus or office building.
+===
+What is WAN?
+ A Wide Area Network is a telecommunications network that extends over a large 
+ geographic area.
+ Wide area networks are often established with leased telecommunication 
+ circuits. 
+===
+What is TCP?
+ The Transmittion Control Protocol (TCP) is one of the main protocol of the 
+ internet protocol suite.
+ It originated in the initial network implimentation in which it 
+ complemented the Internet Protocol(IP).
+===
+What is HTTP?
+ Hyper Text Transfer Protocol (often abbreaviated to HTTP) is a communications
+ protocol. It is used to send and receive webpages and files on the internet.
+===
+What is SSL?
+ SSL (Secure Sockets Layer) and its successor, TLS (Transport Layer Security),
+ are protocols for establishing authenticated and encrypted links between
+ networked computers.
+ Although the SSL protocol was deprecated with the release of TLS 1.0 in 1999,
+ it is still common to refer to these related technologies as.
+===
+What is HTTPS?
+ Hyper Text Transport Protocol Secure (HTTPS) is an extension of the Hypertext
+ Transfer Protocol (HTTP).
+ It is used for secure comminication over a computer network, and is widely 
+ used on the Internet.
+===
+What is WWW?
+ The World Wide Web (WWW) is combination of all resources and users on the 
+ Internet that are using the Hypertext Transport Protocol (HTTP).
+===
+What is URL?
+ A Uniform Resource Identifier (URL) is a generic term for the names of all
+ resources connected to the World Wide Web.
+===
+What is HTML?
+ The Hypertext Markup Language, or HTML is the standard markup language for
+ documents designed to be displayed in a web browser.
+ It can be  assisted by technologies such as Cascading Style Sheet(CSS) and
+ scripting language such as JAVAScript.
+===
+What is a World Wide Web?
+ World Wide Web (also called www or w3) is a hypertext-based information system.
+ Any word in a hypertext document can be specified as a pointer to a different
+ hypertext document where more information pertaining to that word can be found.
+===
+Internet Provider?
+
+
+
+What is Web Application?
+ A web-application is an application program that is usually stored on a remote
+ server, and users can access it through the use of Software known as 
+ web-browser.
+===
+What is Web Server?
+ A web server is computer software and underlying hardware that accepts
+ requests via HTTP or its secure variant HTTPS.
+===
+What is Web Browser?
+ A software application used to access information on the World Wide Web is 
+ called Web Browser.
+===
+What is difference between Web site and Web Application?
+ Web Applications and Web sites are similar but not the same.
+ All web applications are web sites, but not all web sites are web applications.
+
+ 
+ 
+ 
+What is difference between HTML4 and HTML5? 
+ The main difference between HTML4 and HTML5 is that HTML4 is the fourth and older
+ version of HTML with fewer features and tags while HTML5 is the extension of HTML4
+ and the 5th version of HTML. which has new and simple features and has multiple
+ new tags...
+ It has applet to display the applets on web browsers.
+===
+What is Meta data?
+ Metadata is "data that provides information about other data", but not the content
+ of the data, susch as the text of a message or the image itself. There are many 
+ discinct types of metadata, including.
+
+Https://en.wikipedia.org/wiki.CERN
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

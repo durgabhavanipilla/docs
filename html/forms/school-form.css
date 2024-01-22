@@ -1,0 +1,35 @@
+h2{
+    color: blue;
+    
+}
+.h3, .st{
+  color: white;
+  width: 150px;
+  display: inline-block;  
+  margin: 0px;
+}
+div{
+    background-color: red;
+    display: inline-block;
+    width: 305px;
+    }
+.name, .in, .fn, .hn, .hm, .sn, .ptown, .vi, .pc, .snm{
+   width: 200px;
+   border-radius:1px;
+   border: 1px solid black;
+}
+.cb{
+    border-radius: 1px;
+}
+.pht{
+    border: 1px solid black;
+    width: 75px;
+    height: 50px;
+}
+.tn, .atn, .fo, .mn .mo, .sr, .el{
+    width: 150px;
+    border-radius: 1px;
+}
+.sb{
+    background-color: lightblue;
+}

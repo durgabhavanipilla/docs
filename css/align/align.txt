@@ -1,0 +1,59 @@
+
+How do you align text CSS?
+To center text in CSS, use the text-align property and define it
+with the value 'center.
+ You can use this technique inside block elements, 
+ such as divs
+
+
+
+What are the types are used in Align?
+ They are two types.
+ 1. Horizontal Align
+ 2.Vertical Align :
+   It is similar to the vertical-align property but
+   in the horizontal direction.
+ ====
+What is Horizontal Align?
+Horizontal Align is used for text will appear in center. To Horizontally center a block element.
+By using margin property.
+
+How many properties are used in Horizontal Align?
+They are five types properties are used.
+1.margin :
+   This div element is centered.
+Syntax:
+   marigin: auto;
+Example:
+  .div{
+    maigin: auto;
+    width: 50px;
+    border: 3px solid green;
+  }
+======   
+2.text-align : This text is centered.
+    Syntax:
+  text-align: center;
+Example:
+  .div{
+   text-align : center;
+    border: 3px solid green;
+  }
+=====
+3.display :
+ To center an image, we can set left and right marigin to auto and make it into a block element.
+   Syntax:
+   display: block;
+Example:
+  img{
+    display : block;
+    margin-left : auto;
+    margin-right : auto;
+  }
+=====
+4.position : 
+5.float :
+  We can use the float property and text-align property for the alignment of images. 
+ the image is in the div element, then we can use the text-align property for aligning the image in the div.
+
+

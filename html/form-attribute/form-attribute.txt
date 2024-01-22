@@ -1,0 +1,19 @@
+Form attrtibutes:
+ action
+ autocomplete
+ method
+    get
+    post
+ name
+ novalidate
+ rel
+ target
+ accept-charset
+ enctype
+
+
+What is action attrtibute?
+what is target attrtibute?
+what is method attrtibute?
+what is GET Method?
+what is POST Method?

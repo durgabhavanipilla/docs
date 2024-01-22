@@ -1,0 +1,190 @@
+Datatypes in javascript:
+What are data types?
+ Javascript variables can hold different datatypes such as
+   
+   undefined(un initialize a variable)
+    null(null means nothing, it also reserved word)
+    number
+    bigint (without adding after last digit 'n' it's not given accurate value)
+    string
+    boolean
+    symbol 
+	array
+    object
+	and many more ....
+======
+number 
+     Range 
+		[+(253-1) to (-253+1)]
+		9007199254740991  to  -9007199254740991
+	syntax:
+		variable_type variable_name = number;
+	Example:
+		let n1 = 123456789;
+bigint:
+	Range	
+		[]
+		Syntax:
+		 variable_type variable_value = number+n;
+	Example:
+		let n1 = 123456789012345678901234567891234567890n;
+======
+String
+	Syntax:
+		variable_type variable_value = number+n;
+	Example:
+		let n1 = "123456789012345678901234567891234567890no_length_limit";
+=====
+What is the concept of Datatypes?
+	In programming , datatypes are important concept.
+	To be able to operate on variables, it is important to know something about 
+	the type.
+	Without datatypes, it is difficult for the computer to solve.
+======
+Is Javascript types are dynamic?
+ yes, javascript types are dynamic, this means that the same 
+ variable can be used to hold different datatypes.
+======//
+1.string:
+   A string or text string is a series of characters can be 
+   written within single or double quotes.
+   If you want the text in single quote, use double quotes.
+   If you want the text in double quote, use single quote.
+   Syntax:
+       variable_name = "variable_value;
+   Example:
+       firstName = "durga 'bhavani' abc";
+       firstName = 'durga "bhavani" abc';
+======//
+What are Javascript Strings?
+  A String or a text string is a series of characters can be written 
+  within single or double quotes.
+  If you want the text in single quote, use double quotes.
+  If you want the text in double quotes, use single quotes.
+=====
+What are javascript Numbers?
+  Javascript has only one type of numbers.
+  Numbers can be written with or without decimals.
+====
+what are Javascript Booleans?
+ Booleans can only have two values: true or false.
+ Booleans are often used in conditional testing.
+====
+What are Javascript Arrays?
+	Javascript Arrays are written in square brackets and the array items
+	are separated with comma(,).
+===
+What are Javascript Objects?
+ Javascript Objects are written in curly braces.
+  Properties are written as name: value pairs and are separated by comma.
+====
+What is the typeof operator?
+	You can use the Javascript typeof operator to find the type of a 
+	javascript variable.
+	The typeof operator returns the type of a variable or an expression.
+===
+What are Empty Values?
+	an empty value has nothing to do with undefined.
+	An empty string has both a legal value and a type.
+===
+What is undefind?
+	Undefined is a special value and special type of its own.
+	If a variable is declared, but not defined/assigned.
+	Then, its value is undefind and its datatype is also undefined.
+	Undefined is a defaule/initial value foe undefined/unassigned variable.
+	Undefined means "value is not defined/assigned".
+Syntax:
+  variable_type variable_name;
+Example:
+  let firstName;
+====
+What is null?
+  Null is a special value and its datatype is object.
+  Null means "not a reference to any value".
+  Null means "empty" or "unknown" value.
+syntax:
+  variable_type variable_name = null;
+Example:
+  let firstName = null;
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

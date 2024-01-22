@@ -1,0 +1,68 @@
+/*   /*Element selector
+p {
+	color: red;
+}
+ h1 {
+	 color: blue;
+ }
+ #para2{
+	   color: green;
+	   font-weight: bold;
+       text-align : left;
+  }
+ #para3{
+	    color: pink;
+  }
+  #head3{
+     color : pink;
+  }
+  .class-1 {
+	     color: darkcyan;
+  }
+  /*Universal selector - all elements
+  *{
+	   text-align : center;
+  }
+  
+  */
+  
+  /* Element selector*/
+  h2, p{
+	  text-align:center;
+	  color:red;
+  }
+  /*Id Selector*/
+  #id1{
+	  text-align:center;
+	  color:green;
+  }
+  #id2{
+	  text-align:center;
+	  color:blue;
+  }
+  .class-1{
+	  text-align:center;
+	  color:pink;
+	  font-family:sans-serif;
+	  font-size:30px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

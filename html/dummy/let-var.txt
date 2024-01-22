@@ -1,0 +1,38 @@
+function main(){
+	console.log("main method start");
+	console.log("main method end");
+}
+function redeclaration(){
+	console.log("redeclaration function start");
+	let x = 2;
+	let x = 3; // syntaxError: identifier 'x' has already been declaared
+}    console.log("redeclaration function end");
+function usageBeforeDeclaration(){
+	console.log("usageBeforeDeclaration function start");
+}
+function reAssignment(){
+	
+
+
+
+
+
+
+
+}
+
+function blockScope(){
+	console.log("blockScope function start");
+	let x = 1;
+	{
+		let x = 2;
+		console.log("x = "+x);
+	}
+	console.log("x = "+x);
+	console.log("blockScope function end");
+}
+
+==========================================
+/* Do not declare variables with nothing
+   if you declare variables with nothing, 
+   we are missing security.	*/

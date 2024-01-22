@@ -1,0 +1,29 @@
+Operators
+==
+1. increment and decrement operators
+2. arthematic operators
+3. string concadination operator
+4. relational operators
+5. equality operators
+6. instanse of operators
+7. short circuit operator
+8. short circuit operator
+9. type cast operators 
+10. assignment operator
+11. conditional operators
+12. new operator
+13. [] operator
+14. operator precedence
+15. Evaluation order of operator
+16. new vs newInstance()
+17. instanseOf of isInstance()
+18. ClassNotFoundException vs NoClassDefinationFoundError.
+
+increment and decrement operators.
+    increment operator
+        pre increment   ++i increment first and assignment next
+        post increment  i++ assignment first and increment next
+    decrement operator
+        pre increment   --i decrement first and assignment next
+        post increment  i++ assignment first and decrement next
+--    

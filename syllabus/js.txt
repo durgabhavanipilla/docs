@@ -1,0 +1,21 @@
+Topic			covered			practice		interview
+
+Home			yes				yes				yes
+Introduction 	yes 			yes				yes
+whereto			yes				yes				yes
+output			yes				yes				yes
+statements		yes				yes				yes
+syntax			yes				yes				yes
+comments		yes				yes				yes
+variables		yes 			yes				yes
+==
+let				yes				yes				yes
+const			yes				yes				yes
+operators		yes				yes				yes
+arithematic		yes				yes				yes
+datatypes		yes				yes				yes
+functions		yes				yes				yes++
+objects			yes				yes				
+if else			yes				yes				
+switch			yes				yes				
+debugging		yes				yes				yes

@@ -1,0 +1,86 @@
+HTML Quatations and Citation Elements:
+ In this we are having some elements like:
+ <blockquote>--element
+ <q>-element
+ <abbr>-element(abbrivation)
+ <address>-element
+ <cite>-element
+ <bdo>-element(by direction order)
+HTML <blockquote> for quotations.
+ The <blockquote> element defines a section is quoted from another source.
+ Browser usually intend <blockquote> elements.
+ Example:
+	<blockquote cite+"https://www.worldwidelife.org/who/index.html">
+	WWL has been protecting the future of nature. The worlds leading 
+	conversation organization.
+	</blockquote>
+==
+ HTML <q> for short quotations:
+	The <q> element defines a short quotation, browser normally insert
+	quotation marks around the quotation.
+ Example:
+   <p>The text is about <q> quotation marks</q></p>
+ ===
+ HTML <abbr> for abbrivation:
+ The abbrivation <abbr> element defines an abbrivation like "HTML"  "CSS" "ATM".
+ Making abbrivations can giveuseful information to the browser, trasnslation systems
+ and search engines.
+ Use title attribute to show the desscription for the abbrivation, when you mouse hover 
+ the  element.
+ Example:
+ <p>The <abbr title="World Health Organization">WHO</abbr>was founded index1948.</p>
+ ====
+ <adsress>:
+ The <address> tag defines the contact information for an author of an article or
+ document.
+ The contact information can be an email address, URL, physical address, phone number, etc.
+ The text in the <address> element usually in italic, and the browsers will always add 
+ a line break before and after the <address> element.
+ Example: 
+ <address>
+  written by john.<br>
+  visit us at:<br>
+  Disneland<br>
+  USA
+ </address>
+ ===
+ <cite>:
+   The <cite> element defines the title of an creative work like: a book, a poem,
+   a song, etc.
+   The text in the <cite> element will be in italic.
+   Example:
+    <p><cite>The scream</cite>by Edvard Munch.</p>
+====
+HTML <bdo> for Bi-Directional Override:
+ The <bdo> element is used to override the currentn text direction.
+ Example:
+ <p><bdo dir="rtl">This text will be written from right to left.</bdo></p>
+===
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

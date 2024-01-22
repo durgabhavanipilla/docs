@@ -1,0 +1,31 @@
+What are  the different input types?
+   <inout type="text">
+   <inout type="number">
+   <inout type="password>
+
+    <inout type="email">
+    <inout type="tel">
+    <inout type="url">
+
+    <inout type="radio">
+    <inout type="checkbox">
+
+    <inout type="search">
+
+    <inout type="data">
+    <inout type="time">
+    <inout type="datetime-local">
+    <inout type="week">
+    <inout type="month">
+
+   <inout type="file">
+   <inout type="button">
+   <inout type="reset">
+
+    <inout type="color">
+    <inout type="hidden">
+    <inout type="range">
+
+What is the difference between <input type="submit" and "reset"?
+
+What is the difference between <input type="radio" and "checkbox"?

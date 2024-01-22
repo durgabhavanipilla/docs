@@ -1,0 +1,8 @@
+How to set the java path windows machine?
+How many ways we can setup java path in windows machine?
+    Perminent path setup.
+    Temporary path setup.
+    
+Why we need to setup java path?
+Can we compile and run java program without setting up java path?
+    Yes

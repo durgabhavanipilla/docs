@@ -1,0 +1,69 @@
+            statements.text in Javascript
+  what is Javascript program?
+   Javascript program is a computer program, it is a list
+   of instructions that will be "executed" by a computer.
+   In a programming language, these programming instructions
+   are called statements.
+   A JavaScript program is a list of programming statements.
+ =====
+  what are JavaScript Statements?
+    JavaScript statements are composed of Values, Operators,
+	Expressions, Keywords, and comments.  
+    Most JavaScript programs contain many JavaScript statements. 
+    The statements are executed, one by one,in the same order as 
+    they are written.
+    JavaScript programs and JavaScript statements are often called 
+    JavaScript code.
+ =====
+  what are Semicolons in javascript?
+  Semicolons:
+     Semicolons used to separate JavaScript statements.
+     you should Add a semicolon at the end of each executable statement.
+	 When seperated by semicolon, multiple statements in one line 
+	 are allowed.
+ =====
+ What is the use of white space in javascript?
+    JavaScript ignores multiple spaces while executing. 
+	You can add white space to read the script easily.
+	Adding spaces around the operators is the good practice.
+======
+  What are Line Length and Line Breaks?
+   Programmers are often like to avoid longer than 80 characters.
+   So, If the JavaScript code is not fit in one line, 
+   then use line breaks to break the line.
+   The best place to break a line after an operator.
+======
+  What is the use of JavaScript Code Blocks?
+    JavaScript statements can be grouped together in code blocks, 
+    inside curly brackets {...}.
+	And also you can execute the statements together.
+=====
+   What are JavaScript Keywords?
+    JavaScript statements are often start with a keyword to identify
+	the JavaScript action to be performed.
+    JavaScript keywords are reserved words.
+    Reserved words cannot be used as names for variables.
+ 
+
+	
+
+
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+   

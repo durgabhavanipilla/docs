@@ -1,0 +1,19 @@
+What is a float property?
+  Float property specifies how an element should float.
+  float property is used for positioning and formatting content.
+ Example:
+  An image float left to the left of its container.
+=================
+What are the float property values?
+The float property can have one of the following values:
+left - The element floats to the left of its container
+right - The element floats to the right of its container
+none - The element does not float.
+       will be displayed just where it occurs in the text. 
+       This is default.
+inherit - The element inherits the float value of its parent.
+
+Where we will use the float property mostly?
+ Float property is used to develop the responsive web application design.
+  1.RWD
+  2.Navigation.

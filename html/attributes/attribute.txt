@@ -1,0 +1,118 @@
+ 
+ HTML Attributes:
+    Attributes provide additional information about HTML elemennt.
+    All html elements can have attributes.
+    Attributes are always specified in the start tag only.
+    Attributes usually come in name value pair like.
+    atribute-name = "attribute-value".
+  Example:
+  <human name='ravi" dob="15-08-1987" fn="ravi" ln="kumar"></human>
+ ===== 
+  Attributes are two types
+   1.Global attributes(it specifies for all html elements) 
+       id, class, style and etc....
+   2.Local attributes(it specifies to particular elemennt)
+       src, href, alt and etc....
+=====
+ href attributes(html references):
+  The <a> tag defines a hyperlink. 
+  The href attribute specifies the URL of the page.
+  Example:
+    <a href="http://www/w3schools.com">Visit w3schools</a>
+====
+ src attribute:
+ The <img> tag is used to embed an image in html page.
+ The src attribute specifies the path to the image to be displayed.
+ Example:
+    <img src="img_girl.jpg" alt = "girl with a jacket">
+=====
+ alt attribute:
+ The alt attribute of an <img> tag specifies an alternate text for an image,
+ if the image for some reason cannot displayed.
+  This can be due to slow connection, or an error in the src attribute.
+  Example:
+  <img src="img_girl" alt ="Girl with a jacket">
+ Example:
+  <img src="img_girl.jpg" width="500" height="600">
+  
+ alt attribute:(is a local attribute)
+  The alt attribute of an <img> tag specifies an alternate text for 
+  an image if the image for some reason cannot displayed.
+  This can be due to slow connection, or an erro in the src attribute.
+  Example:
+  <img src="img_girl" alt ="Girl with a jacket">
+=====
+ style attribute(is a global attribute)
+  The style attribute is used to add style to an elemennt, such as 
+  color, font, size and more.
+  Example:
+  <p style="color:green;"> This is a pink para.</p>
+  ---
+ lang attribute:
+  you should always include the lang attribute inside the <html> tag,
+  to declare the languages of the web page.
+  This is meant to assist search engines and browsers.
+ Example:
+ <html lang="en-US"></html>
+ 
+ Country codes can also be added to the language code in the lang attribute.
+ Example:
+   <html lang="en-US"></html>
+=====
+ title attribute:
+  The title attribute defines some extra information about an elemennt.
+ Example:
+ <h1 title="i'm a header">The title Attribute</h1>
+ <p title="This is a tooltip">
+ Mouse over this paragraph, to display the title attribute as a tooltip. </p>
+Note: 01
+ Always use lowercase attribute
+ The Attributes can be written with uppercase or lowercase like
+ title or TITLE. but using lowercase is a better way.
+Note: 02
+ Single or Double Quotes:
+   Double Quotes around the attributes are the most common in HTML ,
+   but single Quotes can be used.*(always prefer double qluotes for 
+   practicing purpose)
+Note: 03  
+  When  the attribute value itself contains Double Quotes, then it is necessary 
+	to use single Quotes.
+   Example:
+	 <p title="This is a 'title'">title with single quotes</p>
+	 <p title='This is a "title"'>title with double quotes</p>
+======
+FAQS:
+	HTML attributes
+	href attribute(local)
+	src attribute(local)
+	alt attribute(local)
+	style attribute(global)
+	lang attribute(local)
+	title attribute(global)
+	single and double attribute  
+=======================================
+   What is difference  between Absolute URL and Relative URL?
+	 Absolute URL:
+	 Links to an external resource that is hosted on the another web application. 
+    Example:
+	src ="htp;//www.w3schools.com/images/img_girl.jpg"
+	Relative URL
+	Links to a resource that is available in our application. Here the URL does not 
+	include the  domain name.
+	If the URL  begins without a slash, it will be relative to the current page.
+	Example:
+	src"img_girl.jpg"
+	If the URL of an image beginsw with a slash, it will be relative to the domain 
+	Example:
+	src="/image/img_girl.jpg".
+	------
+	
+	HTML attribute
+	href attribute
+	src attributes
+	alt attributes
+	style attributes
+	lang attributes
+	title attributes
+	single or Double Quotes
+	what is the 

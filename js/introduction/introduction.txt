@@ -1,0 +1,236 @@
+What is JAVA?
+ JAVA is a simple, secured, portable, high-performance, platform independent
+ programming language, by using java we can develop mobile, desktop, web, enterprise
+ and distributed application.
+What are  the java variants?
+ SE 
+ EE 
+ ME 
+ Embedded
+ Card
+ TV
+What is Java SE?
+Java Standard Edition (Java SE, J2SE), by using this, we can devolop  and deploy
+Java applications on desktops and servers.
+==
+What is JDK?
+ JDK stands for Java Development Kit. JDK is a development environment for building desktop,
+ web, enterprise, distributed applications.
+ JDK includes tools useful for developers to develop and test java applications.
+===
+What are the Types of JDKs?
+ JDK, Open JDK, Oracle JDK, and etc...
+ Same features and performance
+ Difference in licensing
+===
+What is Oracle JDK?
+ Oracle JDK is Oracle's supported Java SE version for customers and for developing,
+ testing and demonstrating Java applications.
+===
+What is Open JDK?
+ Open JDK is meant for developers which offeres the same features and 
+ 
+ 
+ 
+
+
+
+===============================================
+ Can javascript change HTML content?
+  Yes, javascript can change HTML content by using the function
+  getElementById() and property innerHTML.
+====
+What is getElementById()?
+ IT is a pre-defined function available in javascript.
+ By giving an id="id", we can get an element from the html page to javascript.
+====
+What is innerHTML?
+ It defines the content between start tag and end tag of an element.
+Example:
+ document.getElementById("firstName").innerHTML = "kumar";
+====
+Can javascript change HTML attribute values?
+Yes, javascript can change 
+
+
+
+
+
+Can javascript hide HTML elements?
+	Yes, It can hide elements by changing the display style as "none".
+	It can show hidden elements by changing the display style as "initial".
+Example:
+	document.getElementById("p2").style.display="none";
+Example:
+	document.getElementById("p2).style.display="initial";
+===
+What is the use of <script> Tag?
+	In HTML, javascript code is inserted between <script> and </script> tags.
+	You can place any number of scripts in an HTML document.
+	Scripts can be placed in the <body> or in the <head> section or in both.
+===
+Define inline Javascript?
+	Writting the Javascript code within the start tag is called as inline
+	Javascript.
+	Example:
+		<p id="first-name">My First Name is Durga</p>
+		<button onclick="'document.getElementById("first-name").innerHTML=
+		"My first name is durga"'>Change first name<?button>
+====
+Define internal Javascript?
+	Writting the javascript code between <script> and </script> tags,
+	is called inline javascript.
+	Example:
+	  <script>
+	    function changeLastName(){
+		 document.getElementById("last-name").innerHTML =
+		 "My last name is bhavani";
+		}
+		</script>
+	  <p id="last-name">My last name is bhavani</p>
+	  <button onclick="changeLastName()"><change last name</button>
+====
+Define External Javascript?
+	Scripts can also be placed in external files, it always recomended.
+	To use an external script, put the name of the script file in the 
+	src attribute of a <script> tag.
+	Javascript files have the extension of .js.
+	You can place an external script reference in <head> or <body> as 
+	you like.
+Example:
+	<script src="introduction.js"></script>
+====
+What are the Advantages of External Javascript?
+   It separates HTML and JS code.
+   It makes HTML and JAVASCRIPT easier to read and maintain.
+   cached Javascript files can speed up page loads.
+===
+FAQS:
+ What is diffrence between display: none and visibility:hidden?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
