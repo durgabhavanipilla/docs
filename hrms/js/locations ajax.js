@@ -2,12 +2,12 @@ function main(){
     getRegions();
 }
 async function getRegions(){
-    let header = "<tr><th>Region_ID</th><th>Region_Name</th></tr>";
+    let header = "<tr><th>Location_Id</th><th>Street_Address</th><th>Postal_Code</th><th>City</th><th>State_Provinance</th><th>Country_Code</th></tr>";
     //create XMLHttpRequest Object
     let xhr = new XMLHttpRequest();
     console.log("after new readystate =" +xhr.readyState);
     //open the request to the server
-    xhr.open("GET", "http://localhost:6010/regions/", true);
+    xhr.open("GET", "http://localhost:6010/locations/", true);
     console.log("after open readystate" +xhr.readyState);
     //send the XMLHttpRequest to the server
     xhr.send();
@@ -18,17 +18,22 @@ async function getRegions(){
         console.log("onreadystatechange readystate" +xhr.readyState);
         if(xhr.readyState == 4 && xhr.status == 200){
             console.log("this.readyState" +xhr.readyState);
-            const responseArray = JSON.parse(xhr.response);
+            const responseObject = JSON.parse(xhr.response);
+            const responseArray = responseObject.result;
             console.log(responseArray);
             let rows = "";
             for(let i = 0; i<responseArray.length; i++){
-                let region_ID = responseArray[i].region_ID;
-                let region_Name = responseArray[i].region_Name;
-                rows += "<tr><td>" +region_ID+ "</td><td>" +region_Name+ "</td></tr>";
+                let locationId= responseArray[i].locationId;
+                let streetAddress = responseArray[i].streetAddress;
+                let postalCode = responseArray[i].postalCode;
+                let city = responseArray[i].city;
+                let stateProvinance = responseArray[i].stateProvinance;
+                let countryId = responseArray[i].countryId;
+                rows += "<tr><td>" +locationId+ "</td><td>" +streetAddress+ "</td><td>" +postalCode+ "</td><td>" +city+ "</td><td>" +stateProvinance+ "</td><td>" +countryId+ "</td></tr>";
                 //rows = rows + row
             }
             console.log(rows);
-            document.getElementById("regions").innerHTML = "<table>" +header+ "" +rows+ "</table>";
+            document.getElementById("locations").innerHTML = "<table>" +header+ "" +rows+ "</table>";
         }
     }
 }

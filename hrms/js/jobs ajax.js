@@ -2,7 +2,7 @@ function main(){
     getJobs();
 }
 async function getJobs(){
-    let header = "<tr><th>Job_Id</th><th>Job_Title</th><t>Min_salary</th><th>Max_salary</th></tr>";
+    let header = "<tr><th>Job_Id</th><th>Job_Title</th><th>Min_salary</th><th>Max_salary</th></tr>";
     //create XMLHttpRequest Object
     let xhr = new XMLHttpRequest();
     console.log("after new readystate =" +xhr.readyState);
