@@ -1,13 +1,13 @@
 function main(){
-    getDepartment();
+    getDepartments();
 }
-async function getDepartment(){
-    let header = "<tr><th>Department_ID</th><th>Department_Name</th><th>Manager_ID</th><th>Loacation_I</th>D</tr>";
+async function getDepartments(){
+    let header = "<tr><th>Department_Id</th><th>Department_Name</th><th>Manager_Id</th><th>Loacation_ID</th></tr>";
     //create XMLHttpRequest Object
     let xhr = new XMLHttpRequest();
     console.log("after new readystate =" +xhr.readyState);
     //open the request to the server
-    xhr.open("GET", "http://localhost:6010/department/", true);
+    xhr.open("GET", "http://localhost:6010/departments/", true);
     console.log("after open readystate" +xhr.readyState);
     //send the XMLHttpRequest to the server
     xhr.send();
@@ -23,15 +23,15 @@ async function getDepartment(){
             console.log(responseArray);
             let rows = "";
             for(let i = 0; i<responseArray.length; i++){
-                let  departmentID = responseArray[i].departmentID;
+                let  departmentId = responseArray[i].departmentId;
                 let departmentName = responseArray[i].departmentName;
-                let managerID = responseArray[i].managerID;
-                let locationID = responseArray[i].locationID;
-                rows = "<tr><td>" +departmentID+ "</td><td>" +departmentName+ "</td><td>" +managerID+ "</td><td>"  +locationID+ "</td></tr>";
+                let managerId = responseArray[i].managerId;
+                let locationId = responseArray[i].locationId;
+                rows += "<tr><td>" +departmentId+ "</td><td>" +departmentName+ "</td><td>" +managerId+ "</td><td>"  +locationId+ "</td></tr>";
                 //rows = rows + row
             }
             console.log(rows);
-            document.getElementById("department").innerHTML = "<table>" +header+ "" +rows+ "</table>";
+            document.getElementById("departments").innerHTML = "<table>" +header+ "" +rows+ "</table>";
         }
     }
 }

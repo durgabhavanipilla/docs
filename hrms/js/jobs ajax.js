@@ -1,13 +1,13 @@
 function main(){
-    getRegions();
+    getJobs();
 }
-async function getRegions(){
+async function getJobs(){
     let header = "<tr><th>Region_ID</th><th>Region_Name</th></tr>";
     //create XMLHttpRequest Object
     let xhr = new XMLHttpRequest();
     console.log("after new readystate =" +xhr.readyState);
     //open the request to the server
-    xhr.open("GET", "http://localhost:6010/regions/", true);
+    xhr.open("GET", "http://localhost:6010/jobs/", true);
     console.log("after open readystate" +xhr.readyState);
     //send the XMLHttpRequest to the server
     xhr.send();
@@ -24,11 +24,11 @@ async function getRegions(){
             for(let i = 0; i<responseArray.length; i++){
                 let region_ID = responseArray[i].region_ID;
                 let region_Name = responseArray[i].region_Name;
-                rows = "<tr><td>" +region_ID+ "</td><td>" +region_Name+ "</td></tr>";
+                rows += "<tr><td>" +region_ID+ "</td><td>" +region_Name+ "</td></tr>";
                 //rows = rows + row
             }
             console.log(rows);
-            document.getElementById("regions").innerHTML = "<table>" +header+ "" +rows+ "</table>";
+            document.getElementById("jobs").innerHTML = "<table>" +header+ "" +rows+ "</table>";
         }
     }
 }

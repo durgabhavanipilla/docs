@@ -1,13 +1,13 @@
 function main(){
-    getRegions();
+    getEmployees();
 }
-async function getRegions(){
-    let header = "<tr><th>Region_ID</th><th>Region_Name</th></tr>";
+async function getEmployees(){
+    let header = "<tr><th>Employee_Id</th><th>First_Name</th><th>Last_Name</th><th>Email</th><th>Phone_Number</th><th>Hire_Date</th><th>Job_Id</th><th>Salary</th><th>Commision</th><th>Manager_Id</th><th>Department_Id</th></tr>";
     //create XMLHttpRequest Object
     let xhr = new XMLHttpRequest();
     console.log("after new readystate =" +xhr.readyState);
     //open the request to the server
-    xhr.open("GET", "http://localhost:6010/regions/", true);
+    xhr.open("GET", "http://localhost:6010/employees/", true);
     console.log("after open readystate" +xhr.readyState);
     //send the XMLHttpRequest to the server
     xhr.send();
@@ -18,17 +18,27 @@ async function getRegions(){
         console.log("onreadystatechange readystate" +xhr.readyState);
         if(xhr.readyState == 4 && xhr.status == 200){
             console.log("this.readyState" +xhr.readyState);
-            const responseArray = JSON.parse(xhr.response);
+            const responseObject = JSON.parse(xhr.response);
+            const responseArray = responseObject.result;
             console.log(responseArray);
             let rows = "";
             for(let i = 0; i<responseArray.length; i++){
-                let region_ID = responseArray[i].region_ID;
-                let region_Name = responseArray[i].region_Name;
-                rows = "<tr><td>" +region_ID+ "</td><td>" +region_Name+ "</td></tr>";
+                let employeeId = responseArray[i].employeeId;
+                let firstName = responseArray[i].firstName;
+                let lastName = responseArray[i].lastName;
+                let email = responseArray[i].email;
+                let phoneNumber = responseArray[i].phoneNumber;
+                let hireDate = responseArray[i].hireDate;
+                let jobId = responseArray[i].jobId;
+                let salary = responseArray[i].salary;
+                let commision = responseArray[i].commision;
+                let managerId = responseArray[i].managerId;
+                let departmentId = responseArray[i].departmentId;
+                rows += "<tr><td>" +employeeId+ "</td><td>" +firstName+ "</td> <td>" +lastName+ "</td><td>"+email+ "</td><td>" +phoneNumber+ "</td><td>" +hireDate+ "</td><td>" +jobId+ "</td><td>"+salary+ "</td><td>" +commision+ "</td><td>" +managerId+ "</td><td>" +departmentId+ "</td></tr>";
                 //rows = rows + row
             }
             console.log(rows);
-            document.getElementById("regions").innerHTML = "<table>" +header+ "" +rows+ "</table>";
+            document.getElementById("employees").innerHTML = "<table>" +header+ "" +rows+ "</table>";
         }
     }
 }

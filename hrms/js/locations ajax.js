@@ -24,7 +24,7 @@ async function getRegions(){
             for(let i = 0; i<responseArray.length; i++){
                 let region_ID = responseArray[i].region_ID;
                 let region_Name = responseArray[i].region_Name;
-                rows = "<tr><td>" +region_ID+ "</td><td>" +region_Name+ "</td></tr>";
+                rows += "<tr><td>" +region_ID+ "</td><td>" +region_Name+ "</td></tr>";
                 //rows = rows + row
             }
             console.log(rows);
