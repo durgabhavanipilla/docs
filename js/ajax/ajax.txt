@@ -1,0 +1,208 @@
+What is Synchronous?
+	Executing the functions or code one-by-one/line-by-line is called Synchronous.
+
+
+
+
+
+
+
+
+what is AJAX?
+	AJAX is not a programming language, it is a part of JAvaScript.
+	AJAX is a technique for accessing web servers [Example : Tomcat]
+	from a web page [Example : Chrome].
+	AJAX stands for Asychronous JAvaScript And XML.
+	JAvaScript is synchronous by default.
+	By using AJAX  we can implement asynchronous mechanism in javascript.
+	By default javascript won't for to get response from the server.
+===
+What is Usage of AJAX?
+	By using AJAX we can perform CRUD operations.
+	We can Reaad data from a web server.
+	We can Send data to a web server.
+	We can Update a web page without reloading the page.
+	We can Delete the records from the database.
+===
+How AJAX Works?
+	AJAX allows web pages to be updated asynchronously by exchanging 
+	data with a web server behind the scenes. This means that it is
+	possible to update parts of a web page, without reloading the 
+	whole page. AJAX is a misleading name. AJAX applications might 
+	use XML to transport data as plain text or JSON text.
+	----
+	Browser [Chrome]  <--->    Internet    <--->     Web Server [Tomcat]
+	1, 2, 7, 8                  3, 6                    4, 5
+	1. An event occurs in a web page (the page is loaded, a button is clicked)
+	2. An XMLHttpRequest object is created by javascript.
+	3. The XMLHttpRequest object sends a request to a web server.
+	4. The server processes the request.
+	5. The server prepares the response object.
+	6. The server sends a response object back to the web page.
+	7. The response is read by javascript.
+	8. Proper action (lilke page update) is performed by javascript.
+==
+How to get XMLHttpRequest Object?
+1. Create an XMLHttpRequest object.
+	Syntax:
+		let xhr = new XMLHttpRequest();
+	---
+2. Open request to a server.
+	Syntax:
+		xmr.open("method_name", "http://hostname:portnum/appname/service_url", sync/async type);
+	Example:
+		xhr.open("GET", "regions_url", true);
+		xhr.open("POST","regions_url");
+	---
+3. Send request tp a server.
+	Syntax:
+		xhr.send();
+		xhr.send(request_body);
+	Example:
+		xhr.send();
+		xhr.send("'regionid':1, 'regionName':'Europe'");
+	---
+4. Define a class back function.
+	A callback function is passed as a paramater to another function.
+	Syntax:
+		xhr.onload = function(){
+		   //process the response object.
+		  }
+====
+What is Acess Across Domain?
+
+What is CORS Policy Issue?
+	For security reasons, modern browsers do not allow access across domains.
+	This means that both the web page and the XML file it tries to load, must 
+	be located on the same server.
+	The examples on Aadhar all persons pic located on the Aadhar domain.
+	If you want to use the examples above on one of your own web pages, persons,
+	pics you load must be located on your own server.
+	Example:
+		phonePay           pjonepay.com
+		gpay               gpay.com
+		jio 				jio.com user-reg.html
+	USA 
+		Embassay usaembassy.com
+	---
+	Restricted
+	Pakistan
+	    rupe  rupe.com
+====
+WAhat are XMLHttpRequest Object Methods?
+	Create an XMLHttpRequest object
+	Define a callback function
+	Open the XMLHttpRequest object
+	Send a Request to a server
+---
+Is javascript asynchronous bydeafault?
+	No, javascript is always synchronous (one-by-one or queue).
+---
+XML or JSON?
+	Carrying the data to and from the server to the browser we can use 
+	XML and JSON.
+	JSON is understandable, shorter and faster than XML.
+---
+What is XMLHttpRequest?
+	XMLHttpRequest is used for asynchronous communication between browser 
+	and server.
+	Sends data from the browser to serve in the backend.
+	Receives the data from the server to browser.
+	Updates the data on web page without reloading.
+---
+Properties of XMLHttpRequest?
+	onreadystatechange:
+		It is called whenever readystate attribute changes.
+		It must not be used with synchronous requests.
+	readystate:
+		represents the state of the request. It range from 0 to 4.
+		Holds the status of the XMLHttpRequest.
+		0. request not initialized.
+		1. server connection established.
+		2. request received.
+		3. processing request.
+		4. request finished and response is ready.
+		
+		responseText : returns response as text.
+		responseXML returns : response as XML
+---
+Methods of XMLHttpRequest?
+	Open(method, URL);
+		opens the request specifing get or post method and url.
+	open(method, URL, async);
+		same as above but specifies asynchronous or not.
+	open(method, URL, async, username, password);
+		same as above but specifies username and password.
+	send()
+		sends get request.
+	send(string);
+		send post request.
+	setRequestHeader(header, value) : it adds request headers.
+	//TODO
+---
+What is difference between onreadystatechange and readystate?
+	The onreadystatechange property defines a function to be executed
+	when the readystate changes.
+	The readyState property holds the status of the XMLHttpRequest.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
