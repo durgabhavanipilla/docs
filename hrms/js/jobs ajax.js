@@ -2,7 +2,7 @@ function main(){
     getJobs();
 }
 async function getJobs(){
-    let header = "<tr><th>Region_ID</th><th>Region_Name</th></tr>";
+    let header = "<tr><th>Job_Id</th><th>Job_Title</th><t>Min_salary</th><th>Max_salary</th></tr>";
     //create XMLHttpRequest Object
     let xhr = new XMLHttpRequest();
     console.log("after new readystate =" +xhr.readyState);
@@ -18,13 +18,16 @@ async function getJobs(){
         console.log("onreadystatechange readystate" +xhr.readyState);
         if(xhr.readyState == 4 && xhr.status == 200){
             console.log("this.readyState" +xhr.readyState);
-            const responseArray = JSON.parse(xhr.response);
+            const responseObject = JSON.parse(xhr.response);
+            const responseArray = responseObject.result;
             console.log(responseArray);
             let rows = "";
             for(let i = 0; i<responseArray.length; i++){
-                let region_ID = responseArray[i].region_ID;
-                let region_Name = responseArray[i].region_Name;
-                rows += "<tr><td>" +region_ID+ "</td><td>" +region_Name+ "</td></tr>";
+                let jobId = responseArray[i].jobId;
+                let jobTitle = responseArray[i].jobTitle;
+                let minSalary = responseArray[i].minSalary;
+                let maxSalary = responseArray[i].maxSalary;
+                rows += "<tr><td>" +jobId+ "</td><td>" +jobTitle+ "</td><td>" +minSalary+ "</td><td>" +maxSalary+ "</td></tr>";
                 //rows = rows + row
             }
             console.log(rows);
