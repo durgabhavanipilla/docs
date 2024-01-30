@@ -1,0 +1,8 @@
+
+What is iife?
+    Immediate Inovoke Function Execution?
+Usage of iife functions?
+What type of logic that we have to write in iife function?
+    connection logic with middleware.
+    single sign on logic.
+    If we want to execute some logic before 
