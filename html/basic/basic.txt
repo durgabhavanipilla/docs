@@ -30,7 +30,7 @@ How to check IP in windows machine?
  Open command prompt and type ipconfig.
 ===
 What is LAN?
- A Local Area Network is comopouter network that interconnects comoputers
+ A Local Area Network is computer network that interconnects computers
  within a limited area such as a residence, school, laboratory, university
  campus or office building.
 ===

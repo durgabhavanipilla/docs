@@ -20,17 +20,17 @@
 		    <title>
 		      Elements
 	    	</title>
-		</head>
+		  </head>
 		<body>
 		    <h1>
 		      This is a heading
 		    </h1>
-			<p>
+			  <p>
 			  This is a para
 		    </p>
 		</body>
-		<footer>
-		</footer>
+		     <footer>
+		     </footer>
 	 </html>
 =====
 Example Explained:

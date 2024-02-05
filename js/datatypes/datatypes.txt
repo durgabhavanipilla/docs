@@ -2,7 +2,7 @@ Datatypes in javascript:
 What are data types?
  Javascript variables can hold different datatypes such as
    
-   undefined(un initialize a variable)
+    undefined(un initialize a variable)
     null(null means nothing, it also reserved word)
     number
     bigint (without adding after last digit 'n' it's not given accurate value)

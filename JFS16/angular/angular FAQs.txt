@@ -1,0 +1,78 @@
+
+What is Angular?
+	Angular is a javascript framework, which is backend by google, 
+	which allows us to create a single page applications.
+---
+What is SPA?
+	SPA is basically a web application where all functionsalities are
+	framed on a single page.
+	SPA has only one HTML file and bunch of html templates, javascript
+	and css files.
+	In SPA, all the html templates, css and javascript files are rendered
+	on the same page dynamically.
+	User can navigate different sections of the page by clicking on links 
+	or buttons without reloading the page.
+	It looks like as a mobile application, they give better user experience.
+---
+What is the difference between AngularJs and Angular?
+	1.Language:
+		AngularJs uses JavaScript language, which is a dynamically typed
+		language.
+		Angular uses TypeScript language, which is a statically typed
+		language and is a superset of JavaScript.
+	2.Mobile Support:
+		AngularJs does not provide mobile support.
+		Angular is supported by all popular mobile applications.
+	3.Version:
+		AngularJs was introduced in 2010, it is written in JavaScript.
+		It is also called as Angular1.
+		Angular framework was introduced in 2016, it uses TypeScript
+		as programming language.
+		It is completely rewritten framework, it is not related with 
+		AngularJs.
+---
+		we are calling it as Angular2?
+		Angular2
+		Angular3 XXX
+		Angular4
+		...
+		...
+		Angular10
+		Angular11
+		Angular12
+		Angular13
+		Angular14
+	4.Architecture:
+		
+		AngularJs uses MVC or Model-View-Controller architecture.
+		View shows data to the users.
+		Controller gets the data from Model, it process the data and exposes
+		data to view.
+		Model contains the business logic.
+		Angular replaces controllers with components.
+		Components are nothing but directives with a predefined template.
+---
+What is the difference between javascript and typescript?
+	TypeScript is a superset of JavaScript.
+	JavaScript runs in the browser inderectly, compilation phase is not
+	required.
+	TypeScript won't run in the browser deirectly, it requires compilation
+	phase.
+	TSC compiler will takes .ts file as an input and generates the .js file
+	as an output.
+	Angular uses the Ahead-of-Time (AOT) compiler.
+---
+How to download and install angular?
+	Install nodejs and npm:
+		set nodejs Path
+		node -v  // v14.21.3
+		npm -v  //  6.14.18
+	Install typescript:
+		npm install -g typescript
+		npm install -g typescript@4.8.4
+	Install angular:
+		npm install -g @angular/cli
+		npm install -g @angular/cli@14.2.11
+---
+How to check the angular version?
+	

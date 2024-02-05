@@ -1,31 +1,31 @@
-	HTML INTRODUCTION
-	What is Hyper Text Markup Language?
-	 ===
-	What is Language?
-	 A language is a structed system of communication used by humans.
+	   HTML INTRODUCTION
+
+What is Hyper Text Markup Language?
+What is Language?
+	A language is a structed system of communication used by humans.
 	Languages can be based on sppech, gesture, sign, or writing.
 	The structer or language is its grammar and the free components are
 	its vocabulary.
-	===
-	What is Markup Language?
-	 Marking up the text within the tags is called markup language.
+===
+What is Markup Language?
+	Marking up the text within the tags is called markup language.
 	Example:
-	<imp>Marking up the text within the tags is called markup language.
-	</imp>
-	====
-	 HTML, XML, XSLT, PHP and etc....
-	=====
-	What is Hyper Text?
-	 Hypertext is a text with hyperlinks, when you click on hyperlinks, it will
-	 navigates to other page.
-	 Hypertext documents are interconnected by hyperlinks, which are typically
-	 activated by a mouse click, key press or screen touch.
-	=====
-	What is HTML?
-	 HTML stand's for Hyper Text Markup Language.
-	 It is tag based programming language.
-	 It is the only language to create a web page.
-	 It describes the structure of a webpage.
-	 It consists of many tags/elements (approx 100).
-	 Elements tell the browser how to display the content.
+	  <imp>Marking up the text within the tags is called markup language.
+	  </imp>
+====
+	HTML, XML, XSLT, PHP and etc....
+=====
+What is Hyper Text?
+	Hypertext is a text with hyperlinks, when you click on hyperlinks, it will
+	navigates to other page.
+	Hypertext documents are interconnected by hyperlinks, which are typically
+	activated by a mouse click, key press or screen touch.
+=====
+What is HTML?
+	HTML stand's for Hyper Text Markup Language.
+	It is tag based programming language.
+	It is the only language to create a web page.
+	It describes the structure of a webpage.
+	It consists of many tags/elements (approx 100).
+	Elements tell the browser how to display the content.
 	  

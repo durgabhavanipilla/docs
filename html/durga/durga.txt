@@ -1,0 +1,46 @@
+                            MONTH
+	               1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+
+1.ENGLISH(1h)   : s
+
+2.SPEAK (1h)    : s
+	
+3.PRACTICE (1h) : s
+
+4.REVISION(1h)  : 
+	
+5.HTML (1h)     : s
+
+6.CSS (1h)      : 
+
+7.JS (1h)       :
+
+8.OWN CODE (1h) :
+
+ total 8hours 
+
+DIALY atlest one hour you can spend...
+
+( 09 - 10 : online class ) -----> 1h
+( 10 - 11 : english )      -----> 1h
+( 11 - 12 : html )         -----> 1h    (HTML)
+( 01 - 02 : lunch )        -----> 1h
+( 02 - 03 : css )          -----> 1h	(CSS)
+( 03 - 04 : revise the cls)-----> 1h
+( 04 - 05 : js )           -----> 1h	(JS)
+( 05 - 06 : house work )   -----> 1h <========>  1
+( 06 - 07 : prepare for dinner)-> 1h <========>  1
+( 07 - 09 : class )        -----> 2h	
+( 09 - 10 : supper )       -----> 1h <========>  1
+                     ========================
+					 total   ==   12 hours
+					 ========================
+( 10 - 11 : revise the cls ) -----> 1h
+( 11 - 05 : sleep )          -----> 7h <=======> 7
+( 05 - 06 : prepare for boxes)----> 1h <=======> 1
+( 06 - 08 : ready for kids ) -----> 2h <=======> 2
+( 08 - 09 : take rest )      -----> 1h <=======> 1
+					=========================	=====
+					total	 ==	  12 hours		 14H
+					=========================   =====
+3rd -- 10 to 1.10(class)					

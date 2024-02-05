@@ -1,8 +1,10 @@
 
 
 Google   V8   JavaScript    runtime engine
-		Google     Chrome
-		Microsoft	Edge
+		Google     Chrome		V8 JavaScript runtime engine
+		Microsoft	Edge		V8 JavaScript runtime engine
+		Mozilla		Firefox		---JavaScript runtime engine
+		MacOs		Safari		---JavaScript runtime engine
 		-----
 		OpenJs	    NodeJS
 		JavaScript
@@ -47,34 +49,38 @@ How to install?
 ====
 How to set nodejs path?
 	Click on windows + S.
-	In search bar, then type environment variables.
+	In search bar, then type Environment V0ariables.
 	There you can find User variables and System variables.
 	If you are the Admin then go for System Variables and find Path name 
 	in that window.
 	There click on edit and copy the nodejs path form the folder(where you have
 	downloaded) and paste it in the path window and click on OK.
-	If you are the user then fo for User variables and find the Path name in 
+	If you are the user then go for User variables and find the Path name in 
 	that window.
 	There click on edit and copy the nodejs path from the folder(where 
 	you have downloaded) and paste it in the path window and click on OK.
 	After this, you can run the nodejs (by using cmd) from any folder of the system.
 	C:\Users\user\work\node-v18.15.0
 =====
-WAhy we need to set the NodeJS path?
-	If we dont set the path then we need to go to the nodejs folder(where you 
+Why we need to set the NodeJS path?
+	If we don't set the path then we need to go to the nodejs folder(where you 
 	have downloaded) and there only we can execute the javascript code.
 	If we set the path then the code can be executed (can access nodejs) from any
 	folder present in your system.
 =====
 What is the difference between interpreter and compiler?
 	If any error in code, interpreter won't stop the intrepretation into that
-	perticular line.
-	If will print error in the console then it will intrepret the next line.
+	particular line.
+	If will print error in the console then it will interpret the next line.
 	If any error in code, compiler will stop there and it will print error in 
-	console. It won't compile next lilne.
+	console.
+	It won't compile next line.
 =====
-What is desing time?
+What is design time?
       // TODO Development Time.
+----
+What is Development time?
+	  // TODO Development time
 ----
 What is compilation time?
 	 //TODO Developer Testing time.
